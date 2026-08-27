@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UGC NET LIS - Practice Mode</title>
+    <style>
+        :root { font-family: system-ui, sans-serif; color: #163225; background: #ecfdf5; color-scheme: light; }
+        :root.dark { color: #e5e7eb; background: #07130d; color-scheme: dark; }
+        * { box-sizing: border-box; } body { min-height: 100vh; display: flex; flex-direction: column; margin: 0; padding: 20px 12px; background: radial-gradient(circle at top left, #d1fae5, transparent 42%), #ecfdf5; transition: background .3s, color .3s; }
+        .dark body { background: radial-gradient(circle at top left, #14532d, transparent 38%), #07130d; }
+        .theme-toggle { position: fixed !important; top: 20px !important; right: 20px !important; left: auto !important; bottom: auto !important; z-index: 2147483647; width: 46px; min-height: 40px; padding: 7px; border: 1px solid rgba(34,197,94,.35); border-radius: 99px; background: rgba(255,255,255,.22); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); cursor: pointer; font-size: 20px; transition: .2s; }
+        .theme-toggle:hover { transform: rotate(12deg) scale(1.08); }
+        main { max-width: 700px; margin: auto; padding: 30px; background: rgba(255,255,255,.97); border: 1px solid #bbf7d0; border-radius: 22px; box-shadow: 0 16px 45px #16653420; }
+        .dark main { color: #f8fafc; background: rgba(255,255,255,.13); border-color: rgba(255,255,255,.25); box-shadow: 0 20px 70px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.16); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); }
+        .dark select, .dark .option { color: #f8fafc; background: rgba(15,23,42,.58); border-color: rgba(255,255,255,.2); }
+        .dark .option:hover:not(:disabled) { background: rgba(22,101,52,.5); border-color: #4ade80; }
+        .dark p, .dark .meta { color: #9ca3af; }
+        .dark h1, .dark h2, .dark h3, .dark .practice-link, .dark .explanation { color: #f8fafc; }
+        .dark .practice-link { color: #111827; background: white; border-color: #d1d5db; }
+        .dark .practice-link:hover { color: #111827; background: #facc15; border-color: #eab308; }
+        .dark .skip { color: #111827; background: white; border-color: #d1d5db; }
+        .dark .skip:hover { color: #111827; background: #facc15; border-color: #eab308; }
+        h1 { margin: 0 0 8px; color: #166534; } p { color: #64748b; }
+        select, button { min-height: 45px; padding: 10px 14px; border: 1px solid #bbf7d0; border-radius: 10px; font: inherit; }
+        select { width: 100%; margin: 18px 0 10px; background: white; } button { cursor: pointer; transition: .2s; }
+        button:hover:not(:disabled) { transform: translateY(-1px); } .start, .next { color: white; background: #16a34a; border: 0; font-weight: 700; }
+        .practice-link { display: inline-flex; align-items: center; min-height: 44px; margin-bottom: 18px; padding: 0 16px; color: #111827; background: white; border: 1px solid #d1d5db; border-radius: 10px; font-weight: 750; text-decoration: none; transition: .2s; }
+        .practice-link:hover { color: #111827; background: #facc15; border-color: #eab308; transform: translateY(-1px); }
+        .option { display: block; width: 100%; margin: 10px 0; background: #f0fdf4; text-align: left; } .option:hover:not(:disabled) { background: #dcfce7; border-color: #4ade80; }
+        #practice { display: none; } .meta { display: flex; justify-content: space-between; margin: 18px 0; color: #15803d; font-weight: 700; }
+        .actions { display: flex; justify-content: space-between; gap: 10px; margin-top: 18px; } .skip { color: #166534; background: white; }
+        .next { display: none; } .explanation { min-height: 24px; color: #166534; line-height: 1.5; }
+        .results { text-align: center; } .results strong { color: #166534; font-size: 28px; }
+        .result-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 22px 0; }
+        .result-stat { padding: 14px; background: #f0fdf4; border-radius: 12px; }
+        .result-stat strong { display: block; font-size: 22px; }
+        .result-stat span { color: #64748b; font-size: 13px; }
+        .dark .result-stat { background: rgba(15,23,42,.58); }
+        .dark .result-stat strong { color: #bbf7d0; }
+        .dark .result-stat span { color: #9ca3af; }
+        .review { margin-top: 28px; text-align: left; }
+        .review-item { margin: 12px 0; padding: 15px; color: #334155; background: #fff7ed; border-left: 4px solid #f97316; border-radius: 10px; line-height: 1.5; }
+        .dark .review-item { color: #e5e7eb; background: rgba(124,45,18,.25); border-left-color: #fb923c; }
+        footer { margin-top: 22px; color: #6b7280; font-size: 13px; text-align: center; }
+        .dark footer { color: #9ca3af; }
+        @media(max-width: 520px) { main { padding: 22px 16px; } h1 { font-size: 27px; } .actions { flex-direction: column; } .actions button { width: 100%; } }
+    </style>
+</head>
+<body><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark theme" onclick="toggleTheme()">☀️</button><main>
+    <a class="practice-link" href="/">← Back to Mock Test</a>
+    <h1>Practice Mode</h1><p>Learn at your own pace. No timer, no pressure, instant explanations.</p>
+    <section id="setup"><select id="topic">
+        <option value="Paper 2 : LIS (All Topics)">Paper 2 : LIS (All Topics)</option>
+        <option value="Unit 1">Unit 1</option>
+        <option value="Unit 2">Unit 2</option>
+        <option value="Unit 3">Unit 3</option>
+        <option value="Unit 4">Unit 4</option>
+        <option value="Unit 5">Unit 5</option>
+        <option value="Unit 6">Unit 6</option>
+        <option value="Unit 7">Unit 7</option>
+        <option value="Unit 8">Unit 8</option>
+        <option value="Unit 9">Unit 9</option>
+        <option value="Unit 10">Unit 10</option>
+    </select><button class="start" onclick="begin()">Start Practice</button></section>
+    <section id="practice"><div class="meta"><span id="count"></span><span id="attempted"></span></div><h2 id="question"></h2><div id="options"></div><p class="explanation" id="explanation"></p><div class="actions"><button class="skip" id="skip" onclick="skip()">Skip Question</button><button class="next" id="next" onclick="next()">Next Question</button><button class="skip" id="submit" onclick="submit()">Submit Practice</button></div></section>
+</main>
+<footer>Made with <span aria-label="love">❤️</span> by Khalid Saifullah</footer>
+<script>
+let questions=[], index=0, marks=0, attempted=0, skipped=0;let theme=localStorage.getItem("ugc-theme")||"light";applyTheme();
+async function begin(){const topic=document.getElementById("topic").value;const response=await fetch("question-bank.json");const data=await response.json();if(!response.ok) return alert("Could not load the question bank.");const available=topic==="Paper 2 : LIS (All Topics)"?data:data.filter(q=>q.unit===topic);if(!available.length)return alert("No questions are available for this unit.");questions=available.sort(()=>Math.random()-.5);questions.forEach(q=>q.status="unanswered");index=0;marks=0;attempted=0;skipped=0;document.getElementById("setup").style.display="none";document.getElementById("practice").style.display="block";show();}
+function show(){const q=questions[index];document.getElementById("count").innerText=`Question ${index+1} of ${questions.length}`;document.getElementById("attempted").innerText=`Attempted: ${attempted}`;document.getElementById("question").innerText=q.q;document.getElementById("explanation").innerText="";document.getElementById("next").style.display="none";document.getElementById("skip").style.display="inline-block";document.getElementById("submit").style.display="inline-block";const box=document.getElementById("options");box.innerHTML="";q.options.forEach((option,i)=>{const b=document.createElement("button");b.className="option";b.innerText=option;b.onclick=()=>answer(i);box.appendChild(b);});}
+function answer(i){const q=questions[index];const correct=i===q.correct;if(correct){marks+=2;q.status="correct";}else{marks-=.25;q.status="incorrect";}q.selected=i;attempted++;document.getElementById("explanation").innerText=`${correct?"Correct!":"Incorrect."} ${q.exp}`;document.getElementById("next").style.display="block";document.getElementById("skip").style.display="none";document.getElementById("submit").style.display="none";document.querySelectorAll(".option").forEach(b=>b.disabled=true);}
+function skip(){questions[index].status="skipped";skipped++;next();}
+function next(){index++;if(index<questions.length)show();else finish("Practice complete!");}
+function submit(){if(confirm("Submit practice now?"))finish("Practice submitted!");}
+function finish(title){const correct=questions.filter(q=>q.status==="correct").length;const attended=attempted+skipped;const accuracy=attended?Math.round(correct/attended*100):0;const percentage=Math.max(0,Math.round(marks/(questions.length*2)*100));const incorrect=questions.filter(q=>q.status==="incorrect");const review=incorrect.length?`<div class="review"><h3>Review incorrect answers</h3>${incorrect.map((q,i)=>`<div class="review-item"><b>${i+1}. ${q.q}</b><br>Your answer: ${q.options[q.selected]}<br>Correct answer: ${q.options[q.correct]}<br>${q.exp}</div>`).join("")}</div>`:"";document.getElementById("practice").innerHTML=`<div class="results"><h2>${title}</h2><p><strong>${percentage}%</strong></p><div class="result-stats"><div class="result-stat"><strong>${correct}</strong><span>Correct answered</span></div><div class="result-stat"><strong>${marks.toFixed(2)} / ${questions.length*2}</strong><span>UGC NET marks</span></div><div class="result-stat"><strong>${accuracy}%</strong><span>Accuracy (${attended} attended)</span></div><div class="result-stat"><strong>${skipped}</strong><span>Skipped</span></div><div class="result-stat"><strong>${questions.length-attended}</strong><span>Unanswered</span></div><div class="result-stat"><strong>Untimed</strong><span>Time mode</span></div></div><div class="actions"><button class="start" onclick="location.reload()">Start Practice Again</button><button class="skip" onclick="downloadResult(${percentage},${accuracy})">Download Result</button><button class="skip" onclick="shareResult(${percentage},${accuracy})">Share Result</button></div>${review}</div>`;}
+function toggleTheme(){theme=theme==="dark"?"light":"dark";applyTheme();localStorage.setItem("ugc-theme",theme);}
+function applyTheme(){document.documentElement.classList.toggle("dark",theme==="dark");const toggle=document.getElementById("theme-toggle");toggle.innerText=theme==="dark"?"🌙":"☀️";toggle.style.position="fixed";toggle.style.top="20px";toggle.style.right="20px";toggle.style.left="auto";toggle.style.bottom="auto";toggle.style.zIndex="2147483647";}
+function downloadResult(percentage,accuracy){const canvas=document.createElement("canvas");canvas.width=800;canvas.height=420;const c=canvas.getContext("2d");c.fillStyle="#ecfdf5";c.fillRect(0,0,800,420);c.fillStyle="#166534";c.font="bold 38px system-ui";c.fillText("UGC NET LIS Practice Result",40,75);c.font="bold 90px system-ui";c.fillText(`${percentage}%`,40,190);c.font="24px system-ui";c.fillText(`Marks: ${marks.toFixed(2)} / ${questions.length*2}`,40,255);c.fillText(`Accuracy: ${accuracy}%`,40,300);const link=document.createElement("a");link.download="ugc-net-lis-practice-result.png";link.href=canvas.toDataURL();link.click();}
+async function shareResult(percentage,accuracy){const text=`UGC NET LIS Practice: ${percentage}% score, ${accuracy}% accuracy.`;if(navigator.share) await navigator.share({title:"UGC NET LIS Practice Result",text});else await navigator.clipboard.writeText(text);alert(navigator.share?"Result shared.":"Result copied to clipboard.");}
+</script></body></html>

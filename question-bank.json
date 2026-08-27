@@ -1,0 +1,2623 @@
+[
+  {
+    "unit": "Unit 1",
+    "q": "Which committee recommended the establishment of the Indian National Scientific Documentation Centre (INSDOC)?",
+    "options": ["A) Ranganathan Committee", "B) Bhatnagar Committee", "C) Kothari Commission", "D) Mudaliar Commission"],
+    "correct": 1,
+    "exp": "INSDOC was established in 1952 based on the recommendations of the Bhatnagar Committee under the CSIR."
+  },
+  {
+    "unit": "Unit 1",
+    "q": "The Information Technology Act in India was enacted in which year?",
+    "options": ["A) 1998", "B) 2000", "C) 2002", "D) 2005"],
+    "correct": 1,
+    "exp": "The Information Technology (IT) Act of India received presidential assent and was enacted in the year 2000."
+  },
+  {
+    "unit": "Unit 1",
+    "q": "Which law of library science emphasizes 'Library is a growing organism'?",
+    "options": ["A) First Law", "B) Third Law", "C) Fourth Law", "D) Fifth Law"],
+    "correct": 3,
+    "exp": "S.R. Ranganathan's Fifth Law of Library Science states that 'Library is a growing organism'."
+  },
+  {
+    "unit": "Unit 1",
+    "q": "Where is the headquarters of IFLA currently located?",
+    "options": ["A) London", "B) Paris", "C) The Hague", "D) Geneva"],
+    "correct": 2,
+    "exp": "The International Federation of Library Associations and Institutions (IFLA) is headquartered at the Royal Library in The Hague, Netherlands."
+  },
+  {
+    "unit": "Unit 1",
+    "q": "The Universal Copyright Convention (UCC) was adopted at Geneva in which year?",
+    "options": ["A) 1886", "B) 1952", "C) 1971", "D) 1995"],
+    "correct": 1,
+    "exp": "The Universal Copyright Convention was adopted in Geneva in 1952 under the auspices of UNESCO."
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Who defined information as 'data processed for purpose'?",
+    "options": ["A) Claude Shannon", "B) G. B. Davis", "C) B. C. Brookes", "D) S. R. Ranganathan"],
+    "correct": 1,
+    "exp": "Gordon B. Davis defined information as data that has been processed into a form meaningful to the recipient."
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Mathematical Theory of Communication was developed by whom?",
+    "options": ["A) Shannon and Weaver", "B) Norbert Wiener", "C) Wilbur Schramm", "D) George Gerbner"],
+    "correct": 0,
+    "exp": "Claude Shannon and Warren Weaver proposed the Mathematical Theory of Communication in 1949."
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which of the following is an example of non-formal information communication?",
+    "options": ["A) Journal article", "B) Patent text", "C) Invisible college", "D) Conference proceedings"],
+    "correct": 2,
+    "exp": "Invisible colleges refer to informal communication networks among researchers and scholars."
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The term 'Knowledge Management' was coined around which decade?",
+    "options": ["A) 1960s", "B) 1970s", "C) 1980s", "D) 1990s"],
+    "correct": 2,
+    "exp": "Karl Wiig coined the term 'Knowledge Management' in 1986 during a conference."
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The SECI model of knowledge dimension (Socialization, Externalization, Combination, Internalization) was created by:",
+    "options": ["A) Nonaka and Takeuchi", "B) Peter Drucker", "C) Fritz Machlup", "D) Thomas Stewart"],
+    "correct": 0,
+    "exp": "Ikujiro Nonaka and Hirotaka Takeuchi developed the SECI model to explain explicit and tacit knowledge conversion."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Biological Abstracts is an example of which category of information source?",
+    "options": ["A) Primary Source", "B) Secondary Source", "C) Tertiary Source", "D) Non-documentary Source"],
+    "correct": 1,
+    "exp": "Abstracting periodicals index and summarize primary literature, making them secondary sources."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "What type of source is an almanac?",
+    "options": ["A) Primary", "B) Secondary", "C) Tertiary", "D) Unpublished"],
+    "correct": 1,
+    "exp": "Almanacs compile facts, statistics, and figures from primary records, categorizing them as secondary sources."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "World of Learning is an example of a:",
+    "options": ["A) Biographical dictionary", "B) Directory", "C) Yearbook", "D) Handbook"],
+    "correct": 1,
+    "exp": "World of Learning is a famous international reference directory listing academic institutions, learned societies, and universities."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Patents and Standards are classified under which type of information sources?",
+    "options": ["A) Primary Sources", "B) Secondary Sources", "C) Tertiary Sources", "D) Non-book materials"],
+    "correct": 0,
+    "exp": "Patents and standards report original inventions and specifications first-hand, making them primary sources."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "The 'Bibliography of Bibliographies' falls under which category of sources?",
+    "options": ["A) Primary", "B) Secondary", "C) Tertiary", "D) Grey Literature"],
+    "correct": 2,
+    "exp": "Bibliographies of bibliographies direct users to secondary sources (bibliographies), classifying them as tertiary."
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Who introduced the concept of Selective Dissemination of Information (SDI)?",
+    "options": ["A) Hans Peter Luhn", "B) S. R. Ranganathan", "C) F. W. Lancaster", "D) Derek Austin"],
+    "correct": 0,
+    "exp": "H. P. Luhn of IBM introduced the concept of SDI in 1958."
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which service provides continuous notifications to users based on their stored interest profiles?",
+    "options": ["A) CAS", "B) SDI", "C) Document Delivery Service", "D) Translation Service"],
+    "correct": 1,
+    "exp": "Selective Dissemination of Information (SDI) periodically matches user interest profiles against newly added information."
+  },
+  {
+    "unit": "Unit 4",
+    "q": "National Translation Centre (NTC) of the USA was located at:",
+    "options": ["A) Library of Congress", "B) John Crerar Library", "C) National Library of Medicine", "D) Harvard University"],
+    "correct": 1,
+    "exp": "The National Translation Centre (NTC) was established at the John Crerar Library in Chicago."
+  },
+  {
+    "unit": "Unit 4",
+    "q": "What is the primary function of a Content Analysis Service?",
+    "options": ["A) Binding books", "B) Summarizing and synthesizing key ideas of text", "C) Assigning shelf marks", "D) Accessioning materials"],
+    "correct": 1,
+    "exp": "Content Analysis Services analyze, synthesize, and evaluate document content to prepare digests, state-of-the-art reports, or trend reports."
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which organization in India maintains the National Union Catalogue of Scientific Serials in India (NUCSSI)?",
+    "options": ["A) INFLIBNET", "B) NIScPR (formerly NISCAIR/INSDOC)", "C) DELNET", "D) NASSDOC"],
+    "correct": 1,
+    "exp": "NUCSSI was created and maintained by INSDOC (later NISCAIR, now CSIR-NIScPR)."
+  },
+  {
+    "unit": "Unit 5",
+    "q": "In Colon Classification, the fundamental category 'Time' is indicated by which connecting symbol in the 6th edition?",
+    "options": ["A) Semicolon (;)", "B) Comma (,)", "C) Dot (.)", "D) Colon (:)"],
+    "correct": 2,
+    "exp": "In the 6th edition of Colon Classification, the fundamental category Time (T) is connected using a dot (.)."
+  },
+  {
+    "unit": "Unit 5",
+    "q": "PRECIS indexing system was developed by whom?",
+    "options": ["A) Derek Austin", "B) E. J. Coates", "C) J. O. Kaiser", "D) S. R. Ranganathan"],
+    "correct": 0,
+    "exp": "Preserved Context Index System (PRECIS) was developed by Derek Austin in 1969 for the British National Bibliography."
+  },
+  {
+    "unit": "Unit 5",
+    "q": "Who designed the Dewey Decimal Classification (DDC) system?",
+    "options": ["A) Paul Otlet", "B) Melvil Dewey", "C) Charles Ammi Cutter", "D) Henri La Fontaine"],
+    "correct": 1,
+    "exp": "Melvil Dewey devised the Dewey Decimal Classification system in 1873, published in 1876."
+  },
+  {
+    "unit": "Unit 5",
+    "q": "The concept of 'APUPA pattern' is related to:",
+    "options": ["A) Arrangement of books on shelves", "B) Cataloguing card layout", "C) Budgeting method", "D) Circulation control"],
+    "correct": 0,
+    "exp": "APUPA (Alien-Penumbral-Umbral-Penumbral-Alien) pattern describes the helpful sequence of books on library shelves."
+  },
+  {
+    "unit": "Unit 5",
+    "q": "In AACR-2, part 1 deals with:",
+    "options": ["A) Headings, Uniform Titles, and References", "B) Description", "C) Subject Analysis", "D) MARC Coding"],
+    "correct": 1,
+    "exp": "Part 1 of Anglo-American Cataloguing Rules, 2nd Edition (AACR-2) covers 'Description', while Part 2 covers Headings and Access Points."
+  },
+  {
+    "unit": "Unit 6",
+    "q": "POSDCORB acronym was coined by whom?",
+    "options": ["A) Henri Fayol", "B) Luther Gulick and Lyndall Urwick", "C) Frederick Taylor", "D) Max Weber"],
+    "correct": 1,
+    "exp": "Luther Gulick and Lyndall Urwick coined POSDCORB to summarize administrative activities."
+  },
+  {
+    "unit": "Unit 6",
+    "q": "Zero-Based Budgeting (ZBB) was introduced by:",
+    "options": ["A) Peter Phyrr", "B) Philip Kotler", "C) Robert McNamara", "D) Charles Babbage"],
+    "correct": 0,
+    "exp": "Peter Pyhrr developed the Zero-Based Budgeting technique at Texas Instruments in the late 1960s."
+  },
+  {
+    "unit": "Unit 6",
+    "q": "Which management theory is associated with Frederick Winslow Taylor?",
+    "options": ["A) Human Relations Theory", "B) Scientific Management Theory", "C) Theory X and Theory Y", "D) Systems Theory"],
+    "correct": 1,
+    "exp": "F. W. Taylor is known as the father of Scientific Management Theory."
+  },
+  {
+    "unit": "Unit 6",
+    "q": "PERT stands for:",
+    "options": ["A) Project Evaluation and Review Technique", "B) Program Execution and Resource Tracking", "C) Process Estimation and Risk Technique", "D) Program Evaluation and Reporting Tool"],
+    "correct": 0,
+    "exp": "PERT stands for Program (or Project) Evaluation and Review Technique, used in project management."
+  },
+  {
+    "unit": "Unit 6",
+    "q": "Total Quality Management (TQM) principles were heavily influenced by:",
+    "options": ["A) W. Edwards Deming", "B) Abraham Maslow", "C) Elton Mayo", "D) Douglas McGregor"],
+    "correct": 0,
+    "exp": "W. Edwards Deming played a pioneering role in developing and popularizing Total Quality Management concepts."
+  },
+  {
+    "unit": "Unit 7",
+    "q": "The OSI (Open Systems Interconnection) reference model consists of how many layers?",
+    "options": ["A) 4", "B) 5", "C) 6", "D) 7"],
+    "correct": 3,
+    "exp": "The ISO-OSI model has 7 functional layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application."
+  },
+  {
+    "unit": "Unit 7",
+    "q": "Koha library management software was originally developed in which country?",
+    "options": ["A) USA", "B) New Zealand", "C) UK", "D) India"],
+    "correct": 1,
+    "exp": "Koha was created in 1999 by Katipo Communications for the Horowhenua Library Trust in New Zealand."
+  },
+  {
+    "unit": "Unit 7",
+    "q": "Z39.50 protocol is used for:",
+    "options": ["A) File Transfer", "B) Information Retrieval", "C) Electronic Mail", "D) Web Page Styling"],
+    "correct": 1,
+    "exp": "Z39.50 is an international client-server protocol for searching and retrieving information from remote databases."
+  },
+  {
+    "unit": "Unit 7",
+    "q": "Which database model organizes data into a tree-like structure?",
+    "options": ["A) Relational Model", "B) Hierarchical Model", "C) Network Model", "D) Object-Oriented Model"],
+    "correct": 1,
+    "exp": "The Hierarchical Database Model organizes records using parent-child relationships in a tree structure."
+  },
+  {
+    "unit": "Unit 7",
+    "q": "DSpace digital repository software was jointly developed by MIT Libraries and:",
+    "options": ["A) IBM", "B) Hewlett-Packard (HP)", "C) Microsoft", "D) Sun Microsystems"],
+    "correct": 1,
+    "exp": "DSpace was released in 2002 as a joint effort between Massachusetts Institute of Technology (MIT) and HP Labs."
+  },
+  {
+    "unit": "Unit 8",
+    "q": "DSpace, EPrints, and Greenstone are examples of:",
+    "options": ["A) Integrated Library Systems", "B) Digital Library / Institutional Repository Software", "C) Operating Systems", "D) Indexing Languages"],
+    "correct": 1,
+    "exp": "DSpace, EPrints, and Greenstone are open-source software systems for building digital libraries and institutional repositories."
+  },
+  {
+    "unit": "Unit 8",
+    "q": "Dublin Core Metadata Element Set contains how many basic elements?",
+    "options": ["A) 12", "B) 15", "C) 18", "D) 21"],
+    "correct": 1,
+    "exp": "The un-qualified Dublin Core Metadata Element Set consists of 15 standard metadata terms."
+  },
+  {
+    "unit": "Unit 8",
+    "q": "OAI-PMH protocol is primarily used for:",
+    "options": ["A) Harvesting metadata", "B) Streaming audio", "C) User authentication", "D) Inter-library loan"],
+    "correct": 0,
+    "exp": "OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) is used to harvest metadata descriptions across repositories."
+  },
+  {
+    "unit": "Unit 8",
+    "q": "Which organization maintains the LOCKSS (Lots of Copies Keep Stuff Safe) project?",
+    "options": ["A) Stanford University", "B) Harvard University", "C) OCLC", "D) Library of Congress"],
+    "correct": 0,
+    "exp": "LOCKSS is an open-source digital preservation initiative developed and led by Stanford University Libraries."
+  },
+  {
+    "unit": "Unit 8",
+    "q": "What is the primary objective of Shibboleth in digital networks?",
+    "options": ["A) Database search", "B) Single Sign-On (SSO) and Federated Identity Management", "C) Document OCR conversion", "D) Web indexing"],
+    "correct": 1,
+    "exp": "Shibboleth provides single sign-on capabilities and authenticates user identities across institutional network boundaries."
+  },
+  {
+    "unit": "Unit 9",
+    "q": "Shodhganga is a national digital repository for Indian:",
+    "options": ["A) E-books", "B) Electronic Theses and Dissertations (ETDs)", "C) Patents", "D) Research Datasets"],
+    "correct": 1,
+    "exp": "Shodhganga is set up by INFLIBNET to host full-text Electronic Theses and Dissertations submitted to Indian universities."
+  },
+  {
+    "unit": "Unit 9",
+    "q": "INFLIBNET Centre is an autonomous Inter-University Centre of which institution?",
+    "options": ["A) CSIR", "B) UGC", "C) ICSSR", "D) AICTE"],
+    "correct": 1,
+    "exp": "INFLIBNET (Information and Library Network) is an autonomous Inter-University Centre of the University Grants Commission (UGC)."
+  },
+  {
+    "unit": "Unit 9",
+    "q": "The main objective of DELNET is to foster:",
+    "options": ["A) Resource sharing among libraries", "B) Printing rare books", "C) Conducting library exams", "D) Standardizing classification"],
+    "correct": 0,
+    "exp": "DELNET (Developing Library Network) was established to facilitate resource sharing, union cataloging, and inter-library loan among member libraries."
+  },
+  {
+    "unit": "Unit 9",
+    "q": "AGRIS is an international information system for agricultural science and technology maintained by:",
+    "options": ["A) UNESCO", "B) FAO", "C) WHO", "D) UNEP"],
+    "correct": 1,
+    "exp": "AGRIS (International System for Agricultural Science and Technology) was created by the Food and Agriculture Organization (FAO) of the UN."
+  },
+  {
+    "unit": "Unit 9",
+    "q": "NISCAIR was formed in 2002 by merging INSDOC with which institution?",
+    "options": ["A) NISCOM", "B) SENDOC", "C) DESIDOC", "D) NASSDOC"],
+    "correct": 0,
+    "exp": "NISCAIR was created by merging the Indian National Scientific Documentation Centre (INSDOC) and the National Institute of Science Communication (NISCOM)."
+  },
+  {
+    "unit": "Unit 10",
+    "q": "The term 'Bibliometrics' was coined by Alan Pritchard in which year?",
+    "options": ["A) 1948", "B) 1969", "C) 1978", "D) 1982"],
+    "correct": 1,
+    "exp": "Alan Pritchard coined the term 'Bibliometrics' in his 1969 paper to replace the older term 'Statistical Bibliography'."
+  },
+  {
+    "unit": "Unit 10",
+    "q": "Bradford's Law of Scattering deals with:",
+    "options": ["A) Frequency distribution of words in text", "B) Distribution of articles across journals in a subject field", "C) Author productivity", "D) Citation decay rate"],
+    "correct": 1,
+    "exp": "Samuel C. Bradford formulated the Law of Scattering in 1934 to describe how literature on a subject is distributed across core and peripheral journals."
+  },
+  {
+    "unit": "Unit 10",
+    "q": "Lotka's Law quantifies which aspect of bibliometrics?",
+    "options": ["A) Journal productivity", "B) Author productivity", "C) Word occurrence frequency", "D) Library acquisition cost"],
+    "correct": 1,
+    "exp": "Alfred J. Lotka (1926) formulated Lotka's Law (an inverse-square law) related to author productivity in scientific literature."
+  },
+  {
+    "unit": "Unit 10",
+    "q": "The h-index metric for assessing scholarly output was proposed by:",
+    "options": ["A) Jorge E. Hirsch", "B) Eugene Garfield", "C) Derek J. de Solla Price", "D) Francis Narin"],
+    "correct": 0,
+    "exp": "Physicist Jorge E. Hirsch introduced the h-index in 2005 to measure both productivity and citation impact of a researcher."
+  },
+  {
+    "unit": "Unit 10",
+    "q": "Qualitative research technique 'Delphi Method' is primarily used for:",
+    "options": ["A) Historical analysis", "B) Forecasting through expert consensus", "C) Calculating book circulation", "D) Database indexing"],
+    "correct": 1,
+    "exp": "The Delphi technique is a structured communication method used to gather expert consensus for forecasting and decision-making."
+  },
+  {
+    "unit": "Unit 1",
+    "q": "Which article of the Indian Constitution specifies that the State shall endeavor to provide free and compulsory education for all children until they complete the age of fourteen years?",
+    "options": ["A) Article 21A", "B) Article 45", "C) Article 51A", "D) Article 43"],
+    "correct": 1,
+    "exp": "Article 45 under Directive Principles initially laid down provision for free and compulsory education; later Article 21A was inserted as a Fundamental Right."
+  },
+  {
+    "unit": "Unit 1",
+    "q": "The concept of 'Right to Information' in India traces its major constitutional foundation back to which Fundamental Right?",
+    "options": ["A) Article 14", "B) Article 19(1)(a)", "C) Article 21", "D) Article 32"],
+    "correct": 1,
+    "exp": "The Supreme Court of India interpreted RTI as an implicit fundamental right under Article 19(1)(a) guaranteeing freedom of speech and expression."
+  },
+  {
+    "unit": "Unit 1",
+    "q": "Who was the Chairman of the Advisory Committee for Libraries set up by the Government of India in 1957?",
+    "options": ["A) S. R. Ranganathan", "B) K. P. Sinha", "C) C. D. Deshmukh", "D) D. S. Kothari"],
+    "correct": 1,
+    "exp": "The Advisory Committee for Libraries (1957), also known as the Sinha Committee, was chaired by K. P. Sinha."
+  },
+  {
+    "unit": "Unit 1",
+    "q": "The National Library of India, Kolkata was declared open to the public on January 1, 1953 by whom?",
+    "options": ["A) Jawaharlal Nehru", "B) Maulana Abul Kalam Azad", "C) Dr. S. Radhakrishnan", "D) Rajendra Prasad"],
+    "correct": 1,
+    "exp": "Maulana Abul Kalam Azad, the then Union Minister of Education, formally opened the National Library at Belvedere, Kolkata on Jan 1, 1953."
+  },
+  {
+    "unit": "Unit 1",
+    "q": "Which library act was the first in India to introduce a provision for a 'Library Cess' on property tax?",
+    "options": ["A) Madras Public Libraries Act, 1948", "B) Andhra Pradesh Public Libraries Act, 1960", "C) Karnataka Public Libraries Act, 1965", "D) Maharashtra Public Libraries Act, 1967"],
+    "correct": 0,
+    "exp": "The Madras (Tamil Nadu) Public Libraries Act of 1948 was the first library legislation in India and pioneered the collection of a library cess."
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Who formulated the 'Fundamental Equation of Information Science' represented as K[S] + ΔI = K[S + ΔS]?",
+    "options": ["A) B. C. Brookes", "B) Fritz Machlup", "C) Nicholas Belkin", "D) Robert M. Taylor"],
+    "correct": 0,
+    "exp": "B. C. Brookes proposed this fundamental equation, where an information increment ΔI modifies a knowledge structure K[S]."
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The 'Anomalous States of Knowledge' (ASK) hypothesis in information retrieval was propounded by:",
+    "options": ["A) T. D. Wilson", "B) N. J. Belkin", "C) Carol Kuhlthau", "D) Brenda Dervin"],
+    "correct": 1,
+    "exp": "Nicholas J. Belkin proposed the ASK model, postulating that information needs arise from an anomaly in a user's knowledge state."
+  },
+  {
+    "unit": "Unit 2",
+    "q": "In Information Search Process (ISP) model proposed by Carol Kuhlthau, which affective stage is characterized by feelings of uncertainty and apprehension?",
+    "options": ["A) Selection", "B) Initiation", "C) Exploration", "D) Formulation"],
+    "correct": 1,
+    "exp": "According to Kuhlthau's Information Search Process model, the initial stage ('Initiation') is typically accompanied by feelings of uncertainty and anxiety."
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Sense-Making methodology for studying human communication and information needs was developed by:",
+    "options": ["A) Brenda Dervin", "B) Elfreda Chatman", "C) Marcia Bates", "D) Reijo Savolainen"],
+    "correct": 0,
+    "exp": "Brenda Dervin developed the Sense-Making framework using the metaphor of a user confronting a gap and bridging it."
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The concept of 'Life in the Round' and 'Small World Theory' in information-seeking behavior is attributed to:",
+    "options": ["A) T. D. Wilson", "B) Elfreda Chatman", "C) David Ellis", "D) S. R. Ranganathan"],
+    "correct": 1,
+    "exp": "Elfreda Chatman introduced theories like 'Life in the Round' and 'Information Poverty' based on ethnographic studies of social groups."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Gale Information Directory is an example of which category of reference sources?",
+    "options": ["A) Primary document", "B) Secondary directory", "C) Tertiary reference guide", "D) Non-bibliographic repository"],
+    "correct": 1,
+    "exp": "Directories compiled by commercial publishers such as Gale collect, categorize, and synthesize institutional data, making them secondary reference sources."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "The 'British National Bibliography' (BNB) relies primarily on which legal mechanism to collect bibliographic data?",
+    "options": ["A) Voluntary Submission", "B) Legal Deposit Law", "C) Copyright Purchase", "D) Inter-library Exchange"],
+    "correct": 1,
+    "exp": "BNB records books and periodicals published in the UK and Ireland obtained through the legal deposit provisions."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Which of the following publication series is classified under 'Grey Literature'?",
+    "options": ["A) Peer-reviewed journal articles", "B) Government technical reports and preprints", "C) Commercial encyclopedias", "D) Published textbooks"],
+    "correct": 1,
+    "exp": "Grey literature refers to research produced by organizations outside traditional commercial or academic publishing channels, such as technical reports."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Social Sciences Citation Index (SSCI) was originally initiated by which pioneer?",
+    "options": ["A) Derek J. de Solla Price", "B) Eugene Garfield", "C) Francis Narin", "D) F. W. Lancaster"],
+    "correct": 1,
+    "exp": "Eugene Garfield founded the Institute for Scientific Information (ISI) and launched the Science Citation Index (SCI) and Social Sciences Citation Index (SSCI)."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "What type of information source is 'Data India' published by Press Institute of India?",
+    "options": ["A) Abstracting service", "B) Digest / News Summary", "C) Biographical dictionary", "D) Geographical gazetteer"],
+    "correct": 1,
+    "exp": "Data India is a weekly news digest/documentation publication summarizing political, social, and economic developments across the nation."
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which model of information retrieval relies on assigning degrees of document relevance ranging between 0 and 1?",
+    "options": ["A) Boolean Vector Model", "B) Exact Match Model", "C) Fuzzy Set Model", "D) Probabilistic Independence Model"],
+    "correct": 2,
+    "exp": "The Fuzzy Set Model extends traditional Boolean logic by allowing partial membership (values between 0 and 1) for term relevance."
+  },
+  {
+    "unit": "Unit 4",
+    "q": "In information retrieval, the ratio of the number of relevant documents retrieved to the total number of relevant documents in the system is termed:",
+    "options": ["A) Precision", "B) Recall", "C) Fall-out", "D) Noise"],
+    "correct": 1,
+    "exp": "Recall = (Relevant items retrieved) / (Total relevant items existing in the collection)."
+  },
+  {
+    "unit": "Unit 4",
+    "q": "The Cranfield Tests conducted under Cyril Cleverdon were historically famous for evaluating:",
+    "options": ["A) Automated circulation software", "B) Performance of indexing systems and IR models", "C) Electronic publishing workflows", "D) Book preservation methods"],
+    "correct": 1,
+    "exp": "The Cranfield Experiments (Cranfield I & II) evaluated index language performance based on precision and recall parameters."
+  },
+  {
+    "unit": "Unit 4",
+    "q": "TREC (Text REtrieval Conference) was co-sponsored by NIST and which US government agency?",
+    "options": ["A) DARPA", "B) NSF", "C) NASA", "D) DoD"],
+    "correct": 0,
+    "exp": "TREC was launched in 1992 co-sponsored by the National Institute of Standards and Technology (NIST) and DARPA."
+  },
+  {
+    "unit": "Unit 4",
+    "q": "The term 'Search Engine Optimization' (SEO) primarily focuses on improving what metric?",
+    "options": ["A) Web server bandwidth utilization", "B) Organic visibility and ranking in search engine results", "C) Database normalization speed", "D) Physical library page retrieval"],
+    "correct": 1,
+    "exp": "SEO involves optimizing web metadata, structural content, and backlinks to gain higher organic rankings on search engines."
+  },
+  {
+    "unit": "Unit 5",
+    "q": "In Universal Decimal Classification (UDC), which auxiliary symbol represents the main auxiliary of 'Properties'?",
+    "options": ["A) =...", "B) (0...)", "C) -02...", "D) .00..."],
+    "correct": 2,
+    "exp": "In modern UDC editions, Special Auxiliary / Common Auxiliary of Properties is denoted by '-02'."
+  },
+  {
+    "unit": "Unit 5",
+    "q": "The device used in Colon Classification to create new main subjects or sub-disciplines by combining two existing main classes is:",
+    "options": ["A) Loose Assemblage", "B) Lamination", "C) Fission", "D) Fusion"],
+    "correct": 3,
+    "exp": "Fusion is a mode of formation of subjects where two or more main subjects merge to form an entirely new, distinct subject (e.g., Astrophysics)."
+  },
+  {
+    "unit": "Unit 5",
+    "q": "The system of 'Chain Indexing' was devised by Dr. S. R. Ranganathan in which of his landmark publications?",
+    "options": ["A) Prolegomena to Library Classification (1937)", "B) Classified Catalogue Code (1934)", "C) Colon Classification (1933)", "D) Library Administration (1935)"],
+    "correct": 1,
+    "exp": "Chain Indexing was introduced by S. R. Ranganathan in his 'Classified Catalogue Code' (CCC) published in 1934."
+  },
+  {
+    "unit": "Unit 5",
+    "q": "In MARC 21 bibliographic format, which tag is allocated for the 'Main Entry - Personal Name'?",
+    "options": ["A) 100", "B) 245", "C) 260", "D) 700"],
+    "correct": 0,
+    "exp": "Tag 100 in MARC 21 is designated for Main Entry - Personal Name, whereas 245 is Title Statement and 700 is Added Entry - Personal Name."
+  },
+  {
+    "unit": "Unit 5",
+    "q": "Functional Requirements for Bibliographic Records (FRBR) conceptual model defines four levels of entity relationships. What is their correct order?",
+    "options": ["A) Work, Expression, Manifestation, Item", "B) Item, Manifestation, Expression, Work", "C) Work, Manifestation, Expression, Item", "D) Expression, Work, Item, Manifestation"],
+    "correct": 0,
+    "exp": "FRBR Group 1 entities follow the conceptual hierarchy: Work (abstract creation) -> Expression (realization) -> Manifestation (physical embodiment) -> Item (single exemplar)."
+  },
+  {
+    "unit": "Unit 6",
+    "q": "Which classification of budget requires managers to break down activities into 'Decision Packages' and evaluate them from scratch?",
+    "options": ["A) Performance Budget", "B) Line-Item Budget", "C) Zero-Based Budget", "D) Program Budget"],
+    "correct": 2,
+    "exp": "Zero-Based Budgeting (ZBB) evaluates all activities via 'decision packages' without considering past historical expenditure levels."
+  },
+  {
+    "unit": "Unit 6",
+    "q": "Herzberg's Two-Factor Theory identifies which set of elements as factors that prevent workplace dissatisfaction but do not inherently motivate?",
+    "options": ["A) Motivators", "B) Hygiene factors", "C) Achievement vectors", "D) Self-actualizers"],
+    "correct": 1,
+    "exp": "Frederick Herzberg classified salary, job security, working conditions, and status as 'Hygiene factors' (dissatisfiers if absent, but not intrinsic motivators)."
+  },
+  {
+    "unit": "Unit 6",
+    "q": "Which library inventory verification method uses the accession register as the primary baseline verification tool?",
+    "options": ["A) Shelf list checking method", "B) Accession register checking method", "C) Card sampling method", "D) RFID counter auditing"],
+    "correct": 1,
+    "exp": "In the accession register stock verification technique, every physical book call number is verified directly against sequential entries in the accession register."
+  },
+  {
+    "unit": "Unit 6",
+    "q": "The management principle 'Span of Control' refers directly to:",
+    "options": ["A) The physical geographical range covered by library branches", "B) The number of subordinates a manager can supervise effectively", "C) The length of time allocated for budget utilization", "D) The total volume of items accessioned annually"],
+    "correct": 1,
+    "exp": "Span of Control specifies the maximum number of direct subordinates an administrator or supervisor can efficiently oversee."
+  },
+  {
+    "unit": "Unit 6",
+    "q": "LibQUAL+ is a suite of services developed by which organization to measure library service quality?",
+    "options": ["A) Association of Research Libraries (ARL)", "B) SCONUL", "C) ALA", "D) IFLA"],
+    "correct": 0,
+    "exp": "LibQUAL+ was created by the Association of Research Libraries (ARL) in partnership with Texas A&M University based on SERVQUAL."
+  },
+  {
+    "unit": "Unit 7",
+    "q": "In computer networking, which topology features a central hub or switch to which all network nodes are individually connected?",
+    "options": ["A) Ring Topology", "B) Bus Topology", "C) Star Topology", "D) Mesh Topology"],
+    "correct": 2,
+    "exp": "In a Star Topology, every client node is connected via point-to-point cable runs straight to a central network device (hub/switch)."
+  },
+  {
+    "unit": "Unit 7",
+    "q": "Which open-source Integrated Library System (ILS) was initially developed in India under an NMEICT project funded by MHRD?",
+    "options": ["A) NewGenLib", "B) Koha", "C) SOUL", "D) E-Granthalaya"],
+    "correct": 0,
+    "exp": "NewGenLib was originally developed by Verus Solutions and later made open source, supported under national digital missions."
+  },
+  {
+    "unit": "Unit 7",
+    "q": "Apache Solr and Elasticsearch are open-source software tools primarily utilized for:",
+    "options": ["A) Relational schema design", "B) Full-text enterprise search and indexing", "C) Network packet routing", "D) Operating system virtualization"],
+    "correct": 1,
+    "exp": "Solr and Elasticsearch are enterprise search platforms built on Apache Lucene designed for high-performance indexing and full-text search."
+  },
+  {
+    "unit": "Unit 7",
+    "q": "What is the primary function of a Subnet Mask in IP networking?",
+    "options": ["A) Encrypt data payloads across public Wi-Fi", "B) Distinguish the Network ID portion from the Host ID portion of an IP address", "C) Translate domain names into IP addresses", "D) Assign dynamic IP addresses to wireless clients"],
+    "correct": 1,
+    "exp": "A subnet mask separates a 32-bit IPv4 address into its component Network prefix and Host identification addresses."
+  },
+  {
+    "unit": "Unit 7",
+    "q": "Which metadata encoding schema uses XML to express structural, descriptive, and administrative metadata for digital objects in digital libraries?",
+    "options": ["A) METS", "B) MARC-XML", "C) MODS", "D) TEI"],
+    "correct": 0,
+    "exp": "METS (Metadata Encoding and Transmission Standard) is an XML schema for encoding descriptive, administrative, and structural metadata of digital library objects."
+  },
+  {
+    "unit": "Unit 8",
+    "q": "The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) operates over which application-layer protocol?",
+    "options": ["A) FTP", "B) HTTP/HTTPS", "C) SMTP", "D) TELNET"],
+    "correct": 1,
+    "exp": "OAI-PMH issues data requests framed as HTTP GET or POST queries, returning metadata formatted in XML."
+  },
+  {
+    "unit": "Unit 8",
+    "q": "In the OAIS (Open Archival Information System) reference model, what is the package submitted by a producer to the archive called?",
+    "options": ["A) Submission Information Package (SIP)", "B) Archival Information Package (AIP)", "C) Dissemination Information Package (DIP)", "D) Management Information Package (MIP)"],
+    "correct": 0,
+    "exp": "In ISO 14721 (OAIS model), the content delivered by a depositor to the repository is the Submission Information Package (SIP)."
+  },
+  {
+    "unit": "Unit 8",
+    "q": "Which digital preservation strategy involves running legacy operating systems and software on modern hardware infrastructure?",
+    "options": ["A) Migration", "B) Emulation", "C) Technology Preservation", "D) Refreshing"],
+    "correct": 1,
+    "exp": "Emulation uses software programs to recreate old hardware/software environments so original digital files can run natively."
+  },
+  {
+    "unit": "Unit 8",
+    "q": "PREMIS (PREservation Metadata: Implementation Strategies) standard is managed and maintained primarily by:",
+    "options": ["A) UNESCO", "B) Library of Congress", "C) OCLC", "D) British Library"],
+    "correct": 1,
+    "exp": "The PREMIS Data Dictionary and its XML schemas are maintained by the PREMIS Editorial Committee housed at the Library of Congress."
+  },
+  {
+    "unit": "Unit 8",
+    "q": "Creative Commons Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND) license permits users to:",
+    "options": ["A) Modify and sell the work freely", "B) Download and share the work while crediting the author, without altering or using commercially", "C) Remix the work into new creations for commercial gain", "D) Transfer ownership rights permanently"],
+    "correct": 1,
+    "exp": "CC BY-NC-ND is the most restrictive Creative Commons license: allows downloading and sharing with credit, but prohibits modifications or commercial usage."
+  },
+  {
+    "unit": "Unit 9",
+    "q": "IndCat is a unified online union catalogue of Indian universities developed and maintained by:",
+    "options": ["A) NISCAIR", "B) DELNET", "C) INFLIBNET", "D) Raja Rammohun Roy Library Foundation"],
+    "correct": 2,
+    "exp": "IndCat is the online Union Catalogue of Indian Universities created by INFLIBNET Centre, covering books, theses, and serials."
+  },
+  {
+    "unit": "Unit 9",
+    "q": "Which network was established in India in 1986 under the Department of Electronics (DoE) to connect academic and research institutions?",
+    "options": ["A) NICNET", "B) ERNET", "C) CALIBNET", "D) MALIBNET"],
+    "correct": 1,
+    "exp": "ERNET (Education and Research Network) was launched in 1986 by DoE with UNDP assistance to provide networking for academia."
+  },
+  {
+    "unit": "Unit 9",
+    "q": "The National Digital Library of India (NDLI) project has been executed and developed by which premier institution?",
+    "options": ["A) IIT Kharagpur", "B) IIT Bombay", "C) IISc Bangalore", "D) IISER Pune"],
+    "correct": 0,
+    "exp": "NDLI is an initiative of the Ministry of Education, India, sponsored under NMEICT and developed by IIT Kharagpur."
+  },
+  {
+    "unit": "Unit 9",
+    "q": "What is the main function of the 'Vidwan' database managed by INFLIBNET?",
+    "options": ["A) Repository of Indian patent documents", "B) Premier database of profiles of scientists/researchers and faculty in India", "C) Indexing of Indian regional language newspapers", "D) Full-text portal for electronic monographs"],
+    "correct": 1,
+    "exp": "Vidwan is a premier database containing profiles of experts, faculty, and scientists working at leading academic and R&D organizations in India."
+  },
+  {
+    "unit": "Unit 9",
+    "q": "International Nuclear Information System (INIS) is operated by which international body?",
+    "options": ["A) UNESCO", "B) IAEA", "C) WIPO", "D) CERN"],
+    "correct": 1,
+    "exp": "INIS is operated by the International Atomic Energy Agency (IAEA) in collaboration with member states."
+  },
+  {
+    "unit": "Unit 10",
+    "q": "In research methodology, 'Type I Error' occurs when a researcher:",
+    "options": ["A) Accepts a false null hypothesis", "B) Rejects a true null hypothesis", "C) Fails to formulate an empirical hypothesis", "D) Uses improper parametric sampling"],
+    "correct": 1,
+    "exp": "A Type I Error (False Positive) occurs when the statistical test rejects a null hypothesis ($H_0$) that is actually true."
+  },
+  {
+    "unit": "Unit 10",
+    "q": "The 'Price's Square Root Law' of scientific productivity states that half of the literature is produced by what fraction of total authors?",
+    "options": ["A) Square root of the total number of authors", "B) Ten percent of total authors", "C) Logarithm of total authors", "D) Inverse square of authors"],
+    "correct": 0,
+    "exp": "Derek J. de Solla Price postulated that half of all scientific contributions are authored by the square root ($\n\\sqrt{N}$) of the total number of authors."
+  },
+  {
+    "unit": "Unit 10",
+    "q": "Which bibliographic metric measures the average number of citations received by articles published in a journal over the preceding two years?",
+    "options": ["A) Eigenfactor Score", "B) SCImago Journal Rank (SJR)", "C) Journal Impact Factor (JIF)", "D) Source Normalized Impact per Paper (SNIP)"],
+    "correct": 2,
+    "exp": "Journal Impact Factor (JIF), devised by Eugene Garfield and calculated by Clarivate Web of Science, measures 2-year average citation rates."
+  },
+  {
+    "unit": "Unit 10",
+    "q": "The non-parametric statistical test commonly used to evaluate whether observed categorical frequencies differ significantly from expected frequencies is:",
+    "options": ["A) Student's t-test", "B) Chi-Square Test ($\n\\chi^2$)", "C) ANOVA (Analysis of Variance)", "D) Pearson Correlation Test"],
+    "correct": 1,
+    "exp": "The Chi-Square ($\n\\chi^2$) test of goodness-of-fit compares observed frequency distributions against theoretical expected counts."
+  },
+  {
+    "unit": "Unit 10",
+    "q": "Altmetrics metrics collect scholarly attention and impact data primarily from which domain?",
+    "options": ["A) Traditional print citations", "B) Social web, media mentions, bookmarks, and online downloads", "C) Physical library circulation desks", "D) Inter-library loan transactions"],
+    "correct": 1,
+    "exp": "Altmetrics (Alternative Metrics) measure digital interactions and social attention (tweets, Mendeley saves, blog posts, news mentions) around research outputs."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Which of the following describes the fundamental nature of an information source according to LIS principles?",
+    "options": [
+      "A) It is strictly limited to bound physical print materials.",
+      "B) It is the origin, carrier, or medium from which information can be obtained.",
+      "C) Its primary vs secondary status is determined entirely by its physical format.",
+      "D) It must be published and reviewed by a commercial publisher."
+    ],
+    "correct": 1,
+    "exp": "An information source is defined as any person, document, institution, object, medium, or system that acts as the origin, carrier, or medium of information."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Which characteristic of an information source evaluates whether the content is presented without deliberate bias or distortion?",
+    "options": [
+      "A) Objectivity",
+      "B) Currency",
+      "C) Authority",
+      "D) Permanence"
+    ],
+    "correct": 0,
+    "exp": "Objectivity assesses whether information is presented neutrally without deliberate distortion or hidden bias."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "How does Dr. S.R. Ranganathan categorize documents like patents, standards, specifications, and data publications?",
+    "options": [
+      "A) Conventional documents",
+      "B) Neo-conventional documents",
+      "C) Non-conventional documents",
+      "D) Meta-documents"
+    ],
+    "correct": 1,
+    "exp": "In Ranganathan's classification of documentary sources based on physical features and historical development, patents, standards, and data publications are classified as neo-conventional documents."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "According to Dr. S.R. Ranganathan, machine-generated records produced directly by sensors or scientific instruments are termed:",
+    "options": [
+      "A) Non-conventional documents",
+      "B) Neo-conventional documents",
+      "C) Meta-documents",
+      "D) Derived documents"
+    ],
+    "correct": 2,
+    "exp": "Meta-documents in Ranganathan's scheme refer to un-mediated records produced directly by machines or instruments without human intervention."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Which scholar proposed the classification of information sources into Primary, Secondary, and Tertiary based on the level of reorganization of information?",
+    "options": [
+      "A) C. W. Hanson",
+      "B) S. R. Ranganathan",
+      "C) Denis Grogan",
+      "D) J. H. Shera"
+    ],
+    "correct": 2,
+    "exp": "Denis Grogan classified information sources into primary, secondary, and tertiary based on the level of reorganization, which is widely accepted in LIS."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "C.W. Hanson classified information sources into which of the following categories?",
+    "options": [
+      "A) Primary, Secondary, and Tertiary",
+      "B) Primary, Secondary, and Primary/Secondary",
+      "C) Conventional, Non-conventional, and Meta-documents",
+      "D) Documentary, Non-documentary, and Cyber"
+    ],
+    "correct": 1,
+    "exp": "C. W. Hanson divided documents into Primary, Secondary, and Primary/Secondary categories based on originality and function."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "What distinguishes a 'born-digital' source from a 'digitized' source?",
+    "options": [
+      "A) Born-digital sources exist only as physical manuscripts.",
+      "B) A born-digital source originates originally in digital form, whereas a digitized source is converted from a physical form.",
+      "C) Digitized sources are always considered primary sources, while born-digital are secondary.",
+      "D) Born-digital sources cannot be preserved in digital repositories."
+    ],
+    "correct": 1,
+    "exp": "Born-digital sources are created initially in digital format (e.g., e-journals), whereas digitized sources are created by converting existing physical items into digital form."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "In the standard information production and search cycle, in which order does a user typically conduct a research search?",
+    "options": [
+      "A) Primary source -> Secondary source -> Tertiary source",
+      "B) Tertiary source -> Secondary source -> Primary source",
+      "C) Secondary source -> Primary source -> Tertiary source",
+      "D) Primary source -> Tertiary source -> Secondary source"
+    ],
+    "correct": 1,
+    "exp": "While information is produced sequentially from primary to tertiary sources, users usually search in reverse: starting with tertiary sources for orientation, using secondary sources to locate literature, and finally examining primary sources for direct evidence."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "A research article reporting original experimental findings in a scholarly journal is classified as a:",
+    "options": [
+      "A) Secondary source",
+      "B) Tertiary source",
+      "C) Primary source",
+      "D) Non-documentary source"
+    ],
+    "correct": 2,
+    "exp": "Original research articles present new facts, data, or findings for the first time and are primary sources."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "A review article published in a research journal that summarizes and evaluates previously published literature is considered a:",
+    "options": [
+      "A) Primary source",
+      "B) Secondary source",
+      "C) Tertiary source",
+      "D) Meta-document"
+    ],
+    "correct": 1,
+    "exp": "Review articles synthesize, evaluate, and interpret primary research studies that have already been published, making them secondary sources."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Which structural standard is commonly followed in writing scholarly empirical research articles?",
+    "options": [
+      "A) POSDCORB structure",
+      "B) APUPA structure",
+      "C) IMRAD structure",
+      "D) FRBR structure"
+    ],
+    "correct": 2,
+    "exp": "IMRAD stands for Introduction, Methods, Results, and Discussion, which is the standard organizational structure for empirical scientific journal articles."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "According to Section 53 of the Patents Act in India, what is the normal term of a patent from the date of filing?",
+    "options": [
+      "A) 10 years",
+      "B) 15 years",
+      "C) 20 years",
+      "D) 25 years"
+    ],
+    "correct": 2,
+    "exp": "Under Section 53 of the Patents Act, the statutory term of a patent in India is 20 years from the filing date."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Which section of a patent document legally defines the scope of protection granted to an invention?",
+    "options": [
+      "A) Abstract",
+      "B) Prior art background",
+      "C) Claims",
+      "D) Working examples"
+    ],
+    "correct": 2,
+    "exp": "The claims section of a patent specification explicitly defines the precise legal boundaries and scope of protection sought or granted."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "What is the primary function of the International Patent Classification (IPC)?",
+    "options": [
+      "A) It establishes global pricing standard for filing patents.",
+      "B) It arranges patents and utility models hierarchically by fields of technology.",
+      "C) It provides biographical details of inventors.",
+      "D) It replaces national patent laws with a single international law."
+    ],
+    "correct": 1,
+    "exp": "The IPC is a worldwide hierarchical classification system administered by WIPO to classify patents according to their technical fields."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Which organization serves as the National Standards Body of India?",
+    "options": [
+      "A) CSIR",
+      "B) NIScPR",
+      "C) Bureau of Indian Standards (BIS)",
+      "D) NITI Aayog"
+    ],
+    "correct": 2,
+    "exp": "The Bureau of Indian Standards (BIS) is the statutory national standards body responsible for developing Indian Standards."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "What distinguishes a 'standard' from a 'technical regulation'?",
+    "options": [
+      "A) Standards are generally voluntary unless made mandatory by law, while technical regulations are compulsory.",
+      "B) Technical regulations are issued by non-governmental bodies, while standards are issued by parliament.",
+      "C) Standards deal only with software, while regulations deal with physical goods.",
+      "D) Standards are secondary sources, whereas technical regulations are tertiary sources."
+    ],
+    "correct": 0,
+    "exp": "Standards approved by standards bodies are voluntary by default unless referenced in legislation or contract, whereas technical regulations are legally binding mandates issued by government authorities."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "What is the primary function of Trade Literature as an information source?",
+    "options": [
+      "A) To present peer-reviewed theoretical physics models.",
+      "B) To provide practical, technical, and commercial specifications directly from product manufacturers.",
+      "C) To list all books published within a nation annually.",
+      "D) To preserve ancient historical manuscripts."
+    ],
+    "correct": 1,
+    "exp": "Trade literature consists of promotional and technical materials (catalogs, data sheets, user manuals) issued by commercial producers to describe products, processes, or services."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Unpublished research literature produced outside conventional commercial publishing channels (such as technical reports, working papers, and internal memos) is known as:",
+    "options": [
+      "A) Trade literature",
+      "B) Grey literature",
+      "C) Neo-conventional literature",
+      "D) Non-book materials"
+    ],
+    "correct": 1,
+    "exp": "Grey literature refers to research and administrative reports produced and published by bodies outside traditional commercial or academic publishing networks."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "The first English dictionary compiled by Robert Cawdrey in 1604, containing about 3,000 hard words, was titled:",
+    "options": [
+      "A) Universal Etymological English Dictionary",
+      "B) A Table Alphabeticall",
+      "C) Roget's Thesaurus",
+      "D) Dictionary of the English Language"
+    ],
+    "correct": 1,
+    "exp": "Robert Cawdrey published 'A Table Alphabeticall' in 1604, which is recognized as an early single-language English dictionary listing hard words."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "What is the key functional difference between a dictionary and an encyclopedia?",
+    "options": [
+      "A) Dictionaries are arranged chronologically; encyclopedias are arranged geographically.",
+      "B) A dictionary primarily explains words (linguistic usage), whereas an encyclopedia explains the subject represented by the word.",
+      "C) Dictionaries are primary sources; encyclopedias are tertiary sources.",
+      "D) Dictionaries are published annually; encyclopedias are published weekly."
+    ],
+    "correct": 1,
+    "exp": "A dictionary focuses on language (spelling, pronunciation, meaning, etymology of words), whereas an encyclopedia provides systematic explanatory knowledge about concepts, events, and subjects."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "In which year was the first edition of Encyclopaedia Britannica published in Scotland?",
+    "options": [
+      "A) 1604-1608",
+      "B) 1768-1771",
+      "C) 1859-1862",
+      "D) 1903-1905"
+    ],
+    "correct": 1,
+    "exp": "The 1st edition of Encyclopaedia Britannica was published in Edinburgh, Scotland, between 1768 and 1771 in 3 volumes."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "The famous Encyclopedia of Library and Information Science (ELIS) was originally edited by:",
+    "options": [
+      "A) Melvil Dewey and C.A. Cutter",
+      "B) Allen Kent et al.",
+      "C) S.R. Ranganathan and P.N. Kaula",
+      "D) Robert Wedgeworth"
+    ],
+    "correct": 1,
+    "exp": "ELIS was launched in 1968 by Marcel Dekker under the main editorship of Allen Kent, Harold Lancour, and Jay E. Daily."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Which Indian language encyclopedia was compiled by Rev. Krishnamohan Banerjee between 1846 and 1851 in 13 volumes?",
+    "options": [
+      "A) Jnanacakra",
+      "B) Bidyakalpadruma",
+      "C) Hindi Vishwakosh",
+      "D) Vigyanam"
+    ],
+    "correct": 1,
+    "exp": "Bidyakalpadruma (Encyclopaedia Bengalensis) was compiled in Bengali by Rev. Krishnamohan Banerjee in 13 volumes between 1846 and 1851."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "According to IFLA, a 'National Bibliography' is defined as:",
+    "options": [
+      "A) A collection of all books located inside university libraries worldwide.",
+      "B) An authoritative and comprehensive record of a country's national publishing output.",
+      "C) A list of manuscripts preserved in national archives.",
+      "D) A trade list of available titles published by commercial vendors."
+    ],
+    "correct": 1,
+    "exp": "IFLA defines a national bibliography as the systematic, authoritative, and comprehensive accumulation of bibliographic records describing a country's publishing output."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "What is the main distinction between a Bibliography and a Library Catalogue?",
+    "options": [
+      "A) A bibliography records documents within a defined scope regardless of location, whereas a library catalogue records items in a specific library collection.",
+      "B) A bibliography is arranged alphabetically; a catalogue is arranged strictly by publication date.",
+      "C) Bibliographies deal only with e-journals; catalogues deal only with physical books.",
+      "D) Bibliographies are compiled by machines; catalogues are compiled by authors."
+    ],
+    "correct": 0,
+    "exp": "A bibliography lists documents based on subject, author, or geographic criteria independent of where they reside, whereas a library catalogue records and locates items held in a specific library or library system."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "An index entry method where keywords extracted from titles are printed in context within a fixed vertical column is known as:",
+    "options": [
+      "A) KWOC (Keyword Out of Context)",
+      "B) KWIC (Keyword in Context)",
+      "C) PRECIS",
+      "D) Chain Indexing"
+    ],
+    "correct": 1,
+    "exp": "KWIC (Keyword in Context), introduced by H.P. Luhn, displays extracted keywords in the center column surrounded by context words from the title."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "An abstract that presents the purpose, research methodology, principal findings, and conclusions of a document in detail is classified as an:",
+    "options": [
+      "A) Indicative abstract",
+      "B) Informative abstract",
+      "C) Evaluative abstract",
+      "D) Author abstract"
+    ],
+    "correct": 1,
+    "exp": "An informative abstract provides a comprehensive summary of the document's objectives, methods, results, and conclusions so users can grasp key findings without reading the full text."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Regarding NLM biomedical resources, which statement correctly differentiates MEDLINE, PubMed, and PubMed Central (PMC)?",
+    "options": [
+      "A) MEDLINE is a full-text database; PubMed is a print index; PMC is a dictionary.",
+      "B) MEDLINE is a bibliographic component indexed with MeSH, PubMed is the broader search system, and PMC is a free full-text digital archive.",
+      "C) PubMed contains only patents; PMC contains standards; MEDLINE contains trade literature.",
+      "D) They are three identical names for the same software system."
+    ],
+    "correct": 1,
+    "exp": "MEDLINE is NLM's curated bibliographic database indexed with MeSH headings; PubMed is the retrieval engine providing access to MEDLINE and additional citations; PubMed Central (PMC) is a full-text repository."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "The database platform eSankhyiki is managed by which Indian government body for official statistics?",
+    "options": [
+      "A) Reserve Bank of India",
+      "B) Ministry of Statistics and Programme Implementation (MoSPI)",
+      "C) NITI Aayog",
+      "D) INFLIBNET"
+    ],
+    "correct": 1,
+    "exp": "eSankhyiki is launched by MoSPI (Ministry of Statistics and Programme Implementation) as a centralized portal for official Indian statistics."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "What is the primary difference between a Handbook and a Manual?",
+    "options": [
+      "A) A handbook provides compact factual guidance/data, whereas a manual provides step-by-step procedural instructions for executing tasks.",
+      "B) Handbooks are published by governments; manuals are published by commercial vendors.",
+      "C) Handbooks are primary sources; manuals are tertiary sources.",
+      "D) Handbooks contain maps; manuals contain dictionary terms."
+    ],
+    "correct": 0,
+    "exp": "A handbook summarizes accepted facts, formulas, and guidance ('what to know'), while a manual provides explicit, step-by-step instructions ('how to perform a task')."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Reference works such as Directories, Yearbooks, and Almanacs are frequently grouped together under what functional service category?",
+    "options": [
+      "A) Long-range bibliographical sources",
+      "B) Ready-reference sources",
+      "C) Non-documentary primary sources",
+      "D) Indexing and abstracting periodicals"
+    ],
+    "correct": 1,
+    "exp": "Directories, yearbooks, and almanacs are termed ready-reference sources because they deliver brief, specific facts to quickly answer direct questions."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "DOAJ (Directory of Open Access Journals) acts primarily as a:",
+    "options": [
+      "A) Commercial publishing house for e-books",
+      "B) Global directory and discovery service for peer-reviewed open-access journals",
+      "C) Paid subscription database for legal cases",
+      "D) Software platform for managing university circulation"
+    ],
+    "correct": 1,
+    "exp": "DOAJ is an independent, community-curated online directory that indexes and provides access to high-quality, open access, peer-reviewed journals."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Which annual reference publication issued by the Ministry of Information and Broadcasting compiles official data on Indian government, economy, and culture?",
+    "options": [
+      "A) The Statesman's Yearbook",
+      "B) India / Bharat Reference Annual",
+      "C) Europa World Year Book",
+      "D) World Almanac"
+    ],
+    "correct": 1,
+    "exp": "The Publications Division of the Ministry of Information & Broadcasting, Government of India, publishes the India / Bharat Reference Annual."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "What is a traditional Indian equivalent of an almanac that provides calendrical, astronomical, and cultural calculations?",
+    "options": [
+      "A) Bidyakalpadruma",
+      "B) Panchang (Panchanga)",
+      "C) Shodhganga",
+      "D) IndCat"
+    ],
+    "correct": 1,
+    "exp": "The Panchang is a traditional Indian astronomical calendar and almanac detailing tithi, vara, nakshatra, yoga, and karana."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "A specialized directory titled 'Who's Who' typically contains biographical entries for:",
+    "options": [
+      "A) Deceased historical figures exclusively",
+      "B) Living and contemporary notable personalities",
+      "C) Anonymous authors of manuscripts",
+      "D) Fictional literary characters"
+    ],
+    "correct": 1,
+    "exp": "'Who's Who' reference publications list concise biographical sketches of prominent living, contemporary individuals."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "What is the function of the online platform IndCat operated by INFLIBNET?",
+    "options": [
+      "A) It acts as a full-text e-book store.",
+      "B) It serves as the online union catalogue of books, theses, and serials in Indian university libraries.",
+      "C) It provides weather forecasts across Indian states.",
+      "D) It indexes only foreign patents."
+    ],
+    "correct": 1,
+    "exp": "IndCat is INFLIBNET's unified online union database representing holding records (books, theses, serials) of participating Indian university libraries."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "What does the abbreviation AISHE stand for in the context of Indian educational statistics?",
+    "options": [
+      "A) All India Survey on Higher Education",
+      "B) Association of Indian Standard Higher Institutions",
+      "C) All India System for Higher Employment",
+      "D) Advisory Institute for Secondary Higher Education"
+    ],
+    "correct": 0,
+    "exp": "AISHE stands for All India Survey on Higher Education, an annual survey conducted by the Ministry of Education to collect higher education statistics."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "In information-retrieval thesauri, what relationship is indicated by the abbreviation 'UF'?",
+    "options": [
+      "A) Useful Fact",
+      "B) Used For",
+      "C) Upper Format",
+      "D) Universal Form"
+    ],
+    "correct": 1,
+    "exp": "In controlled vocabulary thesauri, UF stands for 'Used For' (indicating non-preferred terms or synonyms subsumed under a preferred term)."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Which rule correctly describes cartographic map scale?",
+    "options": [
+      "A) A large-scale map shows a small area with greater detail, whereas a small-scale map shows a large area with less detail.",
+      "B) A large-scale map shows the entire world on a single page with minimal detail.",
+      "C) Map scale has no relationship with geographical detail.",
+      "D) Small-scale maps are exclusively used in 3D globes."
+    ],
+    "correct": 0,
+    "exp": "In cartography, a large-scale map (e.g., 1:5,000) depicts a small geographic area with high detail, whereas a small-scale map (e.g., 1:10,000,000) shows a large region with low detail."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "What is a Gazetteer?",
+    "options": [
+      "A) A collection of scientific abstracts",
+      "B) A geographical dictionary or directory of place names",
+      "C) A catalogue of astronomical instruments",
+      "D) A monthly LIS research journal"
+    ],
+    "correct": 1,
+    "exp": "A gazetteer is a geographical dictionary/directory providing textual, statistical, and location information about places and physical features."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "ISRO's official Indian geoportal providing satellite imagery and thematic geospatial visualization is named:",
+    "options": [
+      "A) Vidwan",
+      "B) Bhuvan",
+      "C) SWAYAM",
+      "D) Shodhgangotri"
+    ],
+    "correct": 1,
+    "exp": "Bhuvan is the national geoportal developed by ISRO for visualizing satellite data, maps, and geospatial services."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Historical academic gateways such as BUBL LINK, SOSIG, EEVL, and Intute are characterized as:",
+    "options": [
+      "A) Automated search engine crawlers",
+      "B) Quality-controlled, human-curated subject gateways",
+      "C) Commercial software for managing library circulations",
+      "D) Hardware modems for dial-up bulletin boards"
+    ],
+    "correct": 1,
+    "exp": "BUBL, SOSIG, EEVL, and Intute were pioneering subject gateways featuring manual selection, evaluation, and structured indexing by librarians and subject experts."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "What is a 'Vortal' in web architecture?",
+    "options": [
+      "A) A horizontal portal for general public entertainment",
+      "B) A vertical portal concentrating on a specific subject, industry, or specialized field",
+      "C) A virus-infected web portal",
+      "D) A portal designed exclusively for voice calls"
+    ],
+    "correct": 1,
+    "exp": "A vortal (vertical portal) focuses deeply on a specific subject domain, industry, or niche user group (unlike horizontal portals covering broad public topics)."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Who launched the first widely recognized public dial-up Computerized Bulletin Board System (CBBS) in Chicago in February 1978?",
+    "options": [
+      "A) Tim Berners-Lee and Robert Cailliau",
+      "B) Ward Christensen and Randy Suess",
+      "C) Paul Otlet and Henri La Fontaine",
+      "D) Vint Cerf and Bob Kahn"
+    ],
+    "correct": 1,
+    "exp": "Ward Christensen and Randy Suess created the first CBBS (Computerized Bulletin Board System), which went operational in Chicago on February 16, 1978."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "In online discussion forums, a member who regularly reads postings without contributing messages is called a:",
+    "options": [
+      "A) Moderator",
+      "B) Gatekeeper",
+      "C) Lurker",
+      "D) Webmaster"
+    ],
+    "correct": 2,
+    "exp": "In online forum culture, a 'lurker' is a passive subscriber or visitor who reads discussions but does not post messages."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "According to the FAIR principles for research data management, data should be:",
+    "options": [
+      "A) Free, Accessible, Institutional, and Restricted",
+      "B) Findable, Accessible, Interoperable, and Reusable",
+      "C) Formatted, Annotated, Indexed, and Reviewed",
+      "D) Fast, Automated, Integrated, and Relational"
+    ],
+    "correct": 1,
+    "exp": "The FAIR acronym stands for Findable, Accessible, Interoperable, and Reusable data guidelines."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "An open-access model where an author deposits an allowed version of their work into an institutional or subject repository without reader charges is known as:",
+    "options": [
+      "A) Gold Open Access",
+      "B) Green Open Access",
+      "C) Diamond Open Access",
+      "D) Hybrid Open Access"
+    ],
+    "correct": 1,
+    "exp": "Green Open Access (self-archiving) involves depositing a manuscript version into an open online repository."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "An open-access publishing model where neither the author pays an article processing charge (APC) nor the reader pays a subscription fee is called:",
+    "options": [
+      "A) Gold Open Access",
+      "B) Bronze Open Access",
+      "C) Diamond / Platinum Open Access",
+      "D) Hybrid Open Access"
+    ],
+    "correct": 2,
+    "exp": "Diamond (or Platinum) Open Access journals publish open-access content without charging author APCs or reader subscription fees."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "What is the primary mission of OASPA (Open Access Scholarly Publishing Association)?",
+    "options": [
+      "A) It is a centralized commercial database of full-text legal cases.",
+      "B) It is a professional membership association promoting ethical and sustainable open-access publishing practices.",
+      "C) It is a hardware vendor supplying servers to digital libraries.",
+      "D) It is an Indian government ministry governing university accreditation."
+    ],
+    "correct": 1,
+    "exp": "OASPA is a global trade association advocating for open-access publishing, establishing standards, and encouraging ethical publishing practices."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Which Creative Commons license allows reuse and sharing provided credit is given, but restricts any modifications (adaptations) and commercial use?",
+    "options": [
+      "A) CC BY",
+      "B) CC BY-NC-ND",
+      "C) CC0",
+      "D) CC BY-SA"
+    ],
+    "correct": 1,
+    "exp": "CC BY-NC-ND (Attribution-NonCommercial-NoDerivatives) allows downloading and sharing with attribution, but prohibits commercial use and structural changes/adaptations."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "The concept of the 'Technological Gatekeeper' in organizational communication is strongly associated with which researcher?",
+    "options": [
+      "A) Thomas J. Allen",
+      "B) Alan Pritchard",
+      "C) Derek J. de Solla Price",
+      "D) Eugene Garfield"
+    ],
+    "correct": 0,
+    "exp": "Thomas J. Allen developed the concept of technological gatekeepers (key personnel who bridge internal staff with external technical communication) in his studies published in 'Managing the Flow of Technology' (1977)."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "The informal network of communication among researchers and scholars exchanging un-published papers, preprints, and ideas was termed 'Invisible College' in 1972 by:",
+    "options": [
+      "A) Diana Crane",
+      "B) S.R. Ranganathan",
+      "C) F.W. Lancaster",
+      "D) Hans Peter Luhn"
+    ],
+    "correct": 0,
+    "exp": "Diana Crane published the influential book 'Invisible Colleges: Diffusion of Knowledge in Scientific Communities' in 1972, analyzing informal scholarly networks."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "In LIS reference methodology, what is the key difference between a 'Reference Service' and a 'Referral Service'?",
+    "options": [
+      "A) Reference service provides the information/document directly, while referral service directs the user to an external source or institution.",
+      "B) Reference service is paid, while referral service is free.",
+      "C) Reference service deals only with patents; referral service deals only with dictionaries.",
+      "D) Reference service is automated; referral service is manual."
+    ],
+    "correct": 0,
+    "exp": "Reference service directly provides the needed information or answer to the user, whereas referral service connects or directs the user to an external expert or institution capable of providing the answer."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "In evaluating web resources, what does the technique of 'Lateral Reading' involve?",
+    "options": [
+      "A) Reading a single webpage from top to bottom without clicking links.",
+      "B) Leaving the target website to open new browser tabs and check independent sources about the site's credibility.",
+      "C) Translating text into an ancient language.",
+      "D) Checking the physical paper binding of a printed book."
+    ],
+    "correct": 1,
+    "exp": "Lateral reading means opening additional tabs to research what outside, independent sources say about a website's authority and claims, rather than relying solely on the site's self-presentation."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "In web evaluation, what does the popular acronym 'CRAAP' stand for?",
+    "options": [
+      "A) Classification, Retrieval, Authority, Abstracting, Performance",
+      "B) Currency, Relevance, Authority, Accuracy, Purpose",
+      "C) Content, Readable, Algorithmic, Privacy, Proof",
+      "D) Citation, Record, Assessment, Access, Preservation"
+    ],
+    "correct": 1,
+    "exp": "Sarah Blakeslee developed the CRAAP test, evaluating web resources across Currency, Relevance, Authority, Accuracy, and Purpose."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "In web evaluation methodology proposed by Mike Caulfield (2017), what do the letters of the SIFT prompt stand for?",
+    "options": [
+      "A) Search, Index, Filter, Translate",
+      "B) Stop, Investigate the source, Find better coverage, Trace claims to original context",
+      "C) Source, Information, Format, Text",
+      "D) Structure, Interface, Fast, Testing"
+    ],
+    "correct": 1,
+    "exp": "SIFT stands for: Stop; Investigate the source; Find better coverage; Trace claims, quotes, and media to the original context."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "Under the W3C Web Content Accessibility Guidelines (WCAG), what are the four foundational principles remembered by the acronym POUR?",
+    "options": [
+      "A) Primary, Open, Universal, Reliable",
+      "B) Perceivable, Operable, Understandable, Robust",
+      "C) Portable, Organization, User-friendly, Retrieval",
+      "D) Public, Online, Unrestricted, Ranked"
+    ],
+    "correct": 1,
+    "exp": "WCAG accessibility guidelines are organized under four core principles: Perceivable, Operable, Understandable, and Robust (POUR)."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "National Social Science Documentation Centre (NASSDOC) was established in 1969 as a division under which Indian council?",
+    "options": [
+      "A) CSIR",
+      "B) ICSSR",
+      "C) ICHR",
+      "D) UGC"
+    ],
+    "correct": 1,
+    "exp": "NASSDOC was established in 1969 under the Indian Council of Social Science Research (ICSSR)."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "In 2021, NISCAIR and NISTADS were merged to establish which new CSIR institute?",
+    "options": [
+      "A) CSIR-NIScPR",
+      "B) CSIR-EIACP",
+      "C) CSIR-INSDOC",
+      "D) CSIR-DESIDOC"
+    ],
+    "correct": 0,
+    "exp": "CSIR-NISCAIR and CSIR-NISTADS merged on 14 January 2021 to form CSIR-NIScPR (National Institute of Science Communication and Policy Research)."
+  },
+  {
+    "unit": "Unit 3",
+    "q": "In 2022, India's Environmental Information System (ENVIS) was restructured and renamed as:",
+    "options": [
+      "A) NISSAT",
+      "B) EIACP",
+      "C) IRINS",
+      "D) e-ShodhSindhu"
+    ],
+    "correct": 1,
+    "exp": "In September 2022, ENVIS was revamped and renamed EIACP (Environmental Information, Awareness, Capacity Building and Livelihood Programme)."
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The library complex of the ancient Nalanda University was known by which name?",
+    "options": [
+      "A) Saraswati Bhandara",
+      "B) Dharmaganja",
+      "C) Ratnasagara",
+      "D) Jñāna Bhandara"
+    ],
+    "correct": 1,
+    "exp": "The library complex at Nalanda University was known as Dharmaganja, meaning the Treasury or Mart of Knowledge.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Who invited the American librarian William Alanson Borden to organize the Baroda State Library System in 1911?",
+    "options": [
+      "A) Maharaja Sayajirao Gaekwad III",
+      "B) Lord Wellesley",
+      "C) Sir John Sargent",
+      "D) John Macfarlane"
+    ],
+    "correct": 0,
+    "exp": "The Baroda Library Movement was promoted by Maharaja Sayajirao Gaekwad III, who invited William Alanson Borden to organize the system in 1911.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which committee, officially called the Indian Education Commission (1882), found college library facilities inadequate?",
+    "options": [
+      "A) Sadler Commission",
+      "B) Raleigh Commission",
+      "C) Hunter Commission",
+      "D) Hartog Committee"
+    ],
+    "correct": 2,
+    "exp": "The Hunter Commission, officially called the Indian Education Commission (1882), examined educational institutions and described the condition of many college libraries as unsatisfactory.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The Advisory Committee for Libraries, constituted in 1957 as the first major national committee devoted specifically to public library development, was chaired by:",
+    "options": [
+      "A) S. R. Ranganathan",
+      "B) K. P. Sinha",
+      "C) D. S. Kothari",
+      "D) D. P. Chattopadhyaya"
+    ],
+    "correct": 1,
+    "exp": "The Advisory Committee for Libraries, constituted in 1957, was chaired by K. P. Sinha and is popularly known as the Sinha Committee.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which commission (1948-1949) recognized the library as the centre of university teaching and recommended allocating approximately 6% of the institutional budget for library development?",
+    "options": [
+      "A) Radhakrishnan Commission",
+      "B) Mudaliar Commission",
+      "C) Kothari Commission",
+      "D) National Knowledge Commission"
+    ],
+    "correct": 0,
+    "exp": "The Radhakrishnan Commission (University Education Commission, 1948-1949) recommended allocation of approximately 6% of the institutional budget or ₹40 per student for library development.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Who was the chairman of the National Knowledge Commission constituted in 2005?",
+    "options": [
+      "A) Sam Pitroda",
+      "B) D. P. Chattopadhyaya",
+      "C) C. R. Karisiddappa",
+      "D) P. N. Kaula"
+    ],
+    "correct": 0,
+    "exp": "The National Knowledge Commission, constituted in 2005, was chaired by Sam Pitroda.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Under the Indian Constitution, libraries, museums, and similar institutions controlled or financed by a state fall under which legislative list?",
+    "options": [
+      "A) Union List",
+      "B) Concurrent List",
+      "C) State List, Entry 12",
+      "D) State List, Entry 25"
+    ],
+    "correct": 2,
+    "exp": "State List, Entry 12 covers libraries, museums and similar institutions controlled or financed by a state, except those declared to be of national importance.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which was the first state in India to enact public library legislation after Independence?",
+    "options": [
+      "A) Andhra Pradesh",
+      "B) Maharashtra",
+      "C) Karnataka",
+      "D) Madras (Tamil Nadu)"
+    ],
+    "correct": 3,
+    "exp": "The Madras Public Libraries Act, 1948 is generally regarded as the first comprehensive state public library legislation enacted after Independence.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "From 1 March 2024, the registration of newspapers and other periodicals in India is governed by the:",
+    "options": [
+      "A) Press and Registration of Books Act, 1867",
+      "B) Delivery of Books (Public Libraries) Act, 1954",
+      "C) Press and Registration of Periodicals Act, 2023",
+      "D) Copyright Act, 1957"
+    ],
+    "correct": 2,
+    "exp": "From 1 March 2024, registration of newspapers and other periodicals is governed by the Press and Registration of Periodicals Act, 2023, which repealed the 1867 Act.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Under the Delivery of Books and Newspapers (Public Libraries) Act, 1954, how many copies of a book must a publisher generally deposit with notified public libraries?",
+    "options": [
+      "A) One",
+      "B) Two",
+      "C) Three",
+      "D) Four"
+    ],
+    "correct": 3,
+    "exp": "A publisher is generally required to deposit four copies: one to the National Library and one to each of the other three notified public libraries.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which Law of Library Science shifted the emphasis from the mere custody or preservation of books to their actual service and access?",
+    "options": [
+      "A) First Law",
+      "B) Second Law",
+      "C) Fourth Law",
+      "D) Fifth Law"
+    ],
+    "correct": 0,
+    "exp": "The first law declares that the primary purpose of a library collection is use, not mere custody or preservation.[cite: 2] Ranganathan shifted the emphasis from possession to service.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The concept of resource sharing, including inter-library loan and cooperative acquisition, is primarily supported by which Law of Library Science?",
+    "options": [
+      "A) First Law",
+      "B) Second Law",
+      "C) Third Law",
+      "D) Fifth Law"
+    ],
+    "correct": 1,
+    "exp": "Because no individual library can own everything its users may need, the second law supports inter-library loan, document delivery, and resource sharing.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which Law of Library Science approaches the problem from the side of the document, emphasizing discovery and promotion?",
+    "options": [
+      "A) First Law",
+      "B) Second Law",
+      "C) Third Law",
+      "D) Fourth Law"
+    ],
+    "correct": 2,
+    "exp": "The third law approaches the problem from the side of the document, whereas the second law begins with the user.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which normative principle states that the alternative producing the greatest overall economy of manpower, materials, money and time should be preferred?",
+    "options": [
+      "A) Law of Interpretation",
+      "B) Law of Osmosis",
+      "C) Law of Symmetry",
+      "D) Law of Parsimony"
+    ],
+    "correct": 3,
+    "exp": "The Law of Parsimony states that the alternative producing the greatest overall economy of manpower, materials, money and time should be preferred.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Michael Gorman proposed the 'Five New Laws of Librarianship' in 1995. Which of the following is one of his laws?",
+    "options": [
+      "A) Libraries are growing organisms.",
+      "B) Libraries serve humanity.",
+      "C) Every medium its user.",
+      "D) Social media are for use."
+    ],
+    "correct": 1,
+    "exp": "Gorman's 1998 article presents the principle that 'Libraries serve humanity' as part of his Five New Laws.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The Indian Library Association (ILA) was formally established during the First All India Library Conference in 1933 at which location?",
+    "options": [
+      "A) Delhi",
+      "B) Madras",
+      "C) Calcutta",
+      "D) Bombay"
+    ],
+    "correct": 2,
+    "exp": "The Indian Library Association was formally established on 13 September 1933 during the First All India Library Conference held at Calcutta.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which association, established in 1955, is specifically focused on promoting the development of special libraries and information centres in India?",
+    "options": [
+      "A) ILA",
+      "B) IATLIS",
+      "C) IASLIC",
+      "D) RRRLF"
+    ],
+    "correct": 2,
+    "exp": "IASLIC was established on 3 September 1955 at Calcutta as a national, non-profit professional organisation to promote the development of special libraries and information centres.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The International Federation of Library Associations and Institutions (IFLA) was founded in 1927 in which city?",
+    "options": [
+      "A) The Hague",
+      "B) Edinburgh",
+      "C) Paris",
+      "D) London"
+    ],
+    "correct": 1,
+    "exp": "IFLA was founded on 30 September 1927 at the annual meeting of the UK Library Association in Edinburgh.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The American Library Association (ALA), one of the oldest library associations in the world, was founded in:",
+    "options": [
+      "A) 1876",
+      "B) 1886",
+      "C) 1909",
+      "D) 1924"
+    ],
+    "correct": 0,
+    "exp": "ALA was founded on 6 October 1876 during the Centennial Exposition in Philadelphia.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "CILIP is the United Kingdom's chartered professional body for library and information professionals. It was formed in 2002 by the unification of the Institute of Information Scientists and which other organization?",
+    "options": [
+      "A) ASLIB",
+      "B) The Library Association",
+      "C) SCONUL",
+      "D) Society of Indexers"
+    ],
+    "correct": 1,
+    "exp": "CILIP was inaugurated in April 2002 following the unification of The Library Association (founded 1877) and the Institute of Information Scientists (founded 1958).[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The Raja Rammohun Roy Library Foundation (RRRLF) was established in May 1972 under which government ministry?",
+    "options": [
+      "A) Ministry of Education",
+      "B) Ministry of Culture",
+      "C) Ministry of Information and Broadcasting",
+      "D) Ministry of Science and Technology"
+    ],
+    "correct": 1,
+    "exp": "RRRLF is an autonomous organisation under the Ministry of Culture, Government of India, with headquarters in Kolkata.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which UNESCO programme, launched in 1992, protects documentary heritage contained in libraries and archives?",
+    "options": [
+      "A) Information for All Programme (IFAP)",
+      "B) UNISIST",
+      "C) Memory of the World Programme",
+      "D) General Information Programme (PGI)"
+    ],
+    "correct": 2,
+    "exp": "Launched in 1992, the Memory of the World Programme protects documentary heritage contained in libraries and archives.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which individual is generally considered to have started the first university-based library training course in India at Punjab University, Lahore in 1915?",
+    "options": [
+      "A) W. A. Borden",
+      "B) S. R. Ranganathan",
+      "C) John Macfarlane",
+      "D) Asa Don Dickinson"
+    ],
+    "correct": 3,
+    "exp": "In 1915, Asa Don Dickinson, Librarian of Punjab University at Lahore, started a three-month apprentice training programme, generally considered the first university-based library training course in India.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which university in India established the first full-fledged Department of Library Science in 1946?",
+    "options": [
+      "A) University of Madras",
+      "B) University of Calcutta",
+      "C) University of Delhi",
+      "D) Banaras Hindu University"
+    ],
+    "correct": 2,
+    "exp": "The Department of Library and Information Science, University of Delhi, was established in 1946, making it the first full-fledged Department of Library Science in India.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Who received the first PhD in Library Science from an LIS department in India for the thesis 'Facet Analysis and Depth Classification of Agriculture'?",
+    "options": [
+      "A) B. B. Shukla",
+      "B) S. Das Gupta",
+      "C) P. N. Kaula",
+      "D) D. B. Krishna Rao"
+    ],
+    "correct": 3,
+    "exp": "D. B. Krishna Rao received the first PhD in Library Science from the University of Delhi for his thesis: Facet Analysis and Depth Classification of Agriculture.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The Documentation Research and Training Centre (DRTC) was formally inaugurated on 16 August 1962 in which city?",
+    "options": [
+      "A) Bangalore",
+      "B) New Delhi",
+      "C) Calcutta",
+      "D) Madras"
+    ],
+    "correct": 0,
+    "exp": "DRTC was established at Bangalore in 1962 as a unit of the Indian Statistical Institute under the leadership of S. R. Ranganathan.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "In which year did the Indira Gandhi National Open University (IGNOU) introduce its BLIS programme through open and distance learning?",
+    "options": [
+      "A) 1985",
+      "B) 1989",
+      "C) 1994",
+      "D) 2001"
+    ],
+    "correct": 1,
+    "exp": "BLIS was introduced by IGNOU in 1989 through open and distance learning.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The UGC Curriculum Development Committee of 1990, which proposed a national model curriculum for LIS, was chaired by:",
+    "options": [
+      "A) C. R. Karisiddappa",
+      "B) S. R. Ranganathan",
+      "C) P. N. Kaula",
+      "D) Sam Pitroda"
+    ],
+    "correct": 2,
+    "exp": "The Curriculum Development Committee under P. N. Kaula recommended the revision and standardisation of LIS curricula, with the report published in 1993.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Under the UGC PhD Regulations of 2022, which historical level of LIS education has been discontinued?",
+    "options": [
+      "A) CLIS",
+      "B) BLIS",
+      "C) M.Phil.",
+      "D) PGDLAN"
+    ],
+    "correct": 2,
+    "exp": "The UGC PhD Regulations, 2022 state that higher educational institutions shall not offer M.Phil. programmes.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which term describes a user who needs information that the library can provide but has not yet used the service?",
+    "options": [
+      "A) Expected user",
+      "B) Actual user",
+      "C) Beneficiary user",
+      "D) Potential user"
+    ],
+    "correct": 3,
+    "exp": "A potential user is defined as a person who needs information that the library can provide but has not yet used the service.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "S. R. Ranganathan classified library users according to the kind of assistance required. A new or inexperienced user requiring orientation and basic guidance is termed a:",
+    "options": [
+      "A) Freshman",
+      "B) Ordinary inquirer",
+      "C) Specialist inquirer",
+      "D) General reader"
+    ],
+    "correct": 0,
+    "exp": "Ranganathan classified a new or inexperienced user requiring orientation and basic guidance as a 'Freshman'.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "In the context of user studies, which concept represents the gap in a person’s knowledge required to solve a problem or complete a task?",
+    "options": [
+      "A) Information demand",
+      "B) Information want",
+      "C) Information need",
+      "D) Information use"
+    ],
+    "correct": 2,
+    "exp": "An information need is defined as a gap in a person’s knowledge required to solve a problem or complete a task.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which component of user education specifically teaches users how to use catalogues, reference sources, and search strategies?",
+    "options": [
+      "A) Library orientation",
+      "B) Library instruction",
+      "C) Information literacy",
+      "D) Digital literacy"
+    ],
+    "correct": 1,
+    "exp": "Library instruction teaches users how to use catalogues, discovery systems, reference sources, databases, and search strategies.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "What is the primary function of a 'Deposit Station' in library extension activities?",
+    "options": [
+      "A) A digital platform for uploading theses",
+      "B) A permanent library building in a city",
+      "C) A temporary collection of books placed in a school, hospital, or prison",
+      "D) A vehicle carrying books to rural areas"
+    ],
+    "correct": 2,
+    "exp": "A deposit station is a temporary collection of books placed in a school, community centre, hospital, prison or other institution.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "An informal network of scholars or specialists who communicate and exchange un-published findings despite not belonging to a formally constituted organization is called:",
+    "options": [
+      "A) A technological gatekeeper",
+      "B) An invisible college",
+      "C) A community information service",
+      "D) A learned society"
+    ],
+    "correct": 1,
+    "exp": "An invisible college is an informal network of scholars or specialists who communicate and exchange information despite not belonging to a formally constituted organization.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Who is generally credited with introducing the term 'Information Literacy' in 1974?",
+    "options": [
+      "A) Michael Gorman",
+      "B) Paul G. Zurkowski",
+      "C) Thomas J. Allen",
+      "D) Mike Caulfield"
+    ],
+    "correct": 1,
+    "exp": "The term Information Literacy was introduced by Paul G. Zurkowski in 1974 to describe the skills required to employ information resources effectively.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The SCONUL model for information literacy, introduced in 1999, is based on how many 'Pillars'?",
+    "options": [
+      "A) Five",
+      "B) Six",
+      "C) Seven",
+      "D) Nine"
+    ],
+    "correct": 2,
+    "exp": "In 1999, SCONUL introduced the Seven Pillars of Information Literacy.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The ACRL Framework for Information Literacy for Higher Education, adopted in 2016, is organized around how many interconnected frames?",
+    "options": [
+      "A) Four",
+      "B) Five",
+      "C) Six",
+      "D) Eight"
+    ],
+    "correct": 2,
+    "exp": "The current ACRL Framework for Information Literacy (2016) is organized around six interconnected frames.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which information literacy model, developed by Eisenberg and Berkowitz, consists of stages including task definition, information-seeking strategies, location and access, synthesis, and evaluation?",
+    "options": [
+      "A) Kuhlthau Information Search Process",
+      "B) Big6 Model",
+      "C) PLUS Model",
+      "D) Empowering 8"
+    ],
+    "correct": 1,
+    "exp": "The Big6 Model by Eisenberg and Berkowitz includes task definition, information-seeking strategies, location and access, use of information, synthesis, and evaluation.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The concept of 'Metaliteracy' focuses on:",
+    "options": [
+      "A) Only utilizing printed bibliographies",
+      "B) Operating computers and networks hardware",
+      "C) Viewing users as both consumers and creators of information across collaborative digital environments",
+      "D) Evaluating financial information exclusively"
+    ],
+    "correct": 2,
+    "exp": "Metaliteracy involves viewing users as both consumers and creators of information across collaborative digital environments.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The IFLA Code of Ethics for Librarians and Other Information Workers was formally endorsed by the IFLA Governing Board in:",
+    "options": [
+      "A) 1983",
+      "B) 1995",
+      "C) 2012",
+      "D) 2016"
+    ],
+    "correct": 2,
+    "exp": "The IFLA Code of Ethics for Librarians and Other Information Workers was endorsed by the IFLA Governing Board in August 2012.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which core ethical principle dictates that personally identifiable information, borrowing records, and search histories of library users should be protected?",
+    "options": [
+      "A) Equitable access",
+      "B) Intellectual freedom",
+      "C) Privacy and confidentiality",
+      "D) Intellectual property"
+    ],
+    "correct": 2,
+    "exp": "Under the principle of privacy and confidentiality, personally identifiable information, borrowing records, search histories and reference enquiries should be protected.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The concept of the 'Technological Gatekeeper', a person who translates external technical information for colleagues, is strongly associated with which researcher?",
+    "options": [
+      "A) J. D. Bernal",
+      "B) Thomas J. Allen",
+      "C) Derek J. de Solla Price",
+      "D) Diana Crane"
+    ],
+    "correct": 1,
+    "exp": "The technological-gatekeeper concept emerged from organizational communication studies in the 1960s and is strongly associated with Thomas J. Allen.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "When verifying information from human sources, using two or more independent sources or methods of evidence is known as:",
+    "options": [
+      "A) Triangulation",
+      "B) Metadata harvesting",
+      "C) Citation analysis",
+      "D) Lateral reading"
+    ],
+    "correct": 0,
+    "exp": "Triangulation means verifying information through two or more independent sources, methods or forms of evidence.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which Indian organization, established in 1952, was later merged with NISCOM in 2002 to form NISCAIR?",
+    "options": [
+      "A) DRTC",
+      "B) NASSDOC",
+      "C) INSDOC",
+      "D) DESIDOC"
+    ],
+    "correct": 2,
+    "exp": "The Indian National Scientific Documentation Centre (INSDOC) was established in 1952, and on 30 September 2002, INSDOC and NISCOM merged to form NISCAIR.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "The National Archives of India was originally established in Calcutta in 1891 under the name:",
+    "options": [
+      "A) Imperial Record Department",
+      "B) Royal Society of Records",
+      "C) Asiatic Society Archives",
+      "D) National Depository Library"
+    ],
+    "correct": 0,
+    "exp": "The Imperial Record Department was established in Calcutta in 1891, which was later renamed the National Archives of India in 1947.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which type of public relations and outreach activity involves a systematic process where the library extends its resources beyond its conventional premises and regular users?",
+    "options": [
+      "A) Bibliographic instruction",
+      "B) Library extension activities",
+      "C) Collection development",
+      "D) SDI (Selective Dissemination of Information)"
+    ],
+    "correct": 1,
+    "exp": "Library extension activities are programmes through which a library extends its resources, services and influence beyond its conventional premises and regular users.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which component of user education specifically aims to develop affective objectives such as creating a positive attitude and making users comfortable in approaching the library?",
+    "options": [
+      "A) Library instruction",
+      "B) Bibliographic instruction",
+      "C) Digital literacy",
+      "D) Library orientation"
+    ],
+    "correct": 3,
+    "exp": "Library orientation introduces users to the physical layout and basic rules; its purpose is to make the user comfortable and confident in approaching the library.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "In the context of scholarly communication, the persistent identifier 'ORCID' provides what function?",
+    "options": [
+      "A) It is a repository for open-access datasets.",
+      "B) It provides a unique persistent identifier for researchers and contributors.",
+      "C) It replaces traditional ISBNs for printed books.",
+      "D) It is an automated plagiarism detection software."
+    ],
+    "correct": 1,
+    "exp": "ORCID, launched in 2012, provides a unique persistent identifier for researchers and contributors.[cite: 2]"
+  },
+  {
+    "unit": "Unit 2",
+    "q": "Which library staff position is often described as the most important link between the library and its users, serving as a primary public-relations point?",
+    "options": [
+      "A) Cataloguing librarian",
+      "B) Systems librarian",
+      "C) Reference librarian",
+      "D) Preservation specialist"
+    ],
+    "correct": 2,
+    "exp": "The reference librarian is often described as the link between the library and its users, and the reference desk is an important public-relations point.[cite: 2]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "The Community Information Project (CIP), which contributed significantly to the expansion of Community Information Services in the late 1960s, was developed in which country?",
+    "options": [
+      "A) United States",
+      "B) United Kingdom",
+      "C) Australia",
+      "D) Canada"
+    ],
+    "correct": 1,
+    "exp": "The Community Information Project (CIP) developed in the United Kingdom during the late 1960s, a period of significant expansion for Community Information Services.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Public Information Centres (PICs), which emerged as part of the Community Information Services movement, were developed in:",
+    "options": [
+      "A) United Kingdom",
+      "B) United States",
+      "C) India",
+      "D) Canada"
+    ],
+    "correct": 1,
+    "exp": "Public Information Centres (PICs) emerged in the United States during the expansion of Community Information Services.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which concept, associated with Michael Gurstein, emphasizes that providing physical access to ICT is not sufficient, and people must also possess the skills and support to use technology successfully?",
+    "options": [
+      "A) Digital Divide",
+      "B) Effective Use",
+      "C) Social Informatics",
+      "D) Information Poverty"
+    ],
+    "correct": 1,
+    "exp": "The concept of effective use is associated with Michael Gurstein.[cite: 3] It means that providing physical access to ICT is not sufficient; people must also possess the skills, content, support and organizational capacity required to use technology successfully.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "The Access Rainbow Model, which explains ICT access through seven interconnected layers, was presented in 2000 by:",
+    "options": [
+      "A) Michael Gurstein",
+      "B) Tim Berners-Lee",
+      "C) Andrew Clement and Leslie Regan Shade",
+      "D) Darcy DiNucci"
+    ],
+    "correct": 2,
+    "exp": "The Access Rainbow Model was presented by Andrew Clement and Leslie Regan Shade in 2000.[cite: 3] It explains ICT access through seven interconnected layers.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Who is commonly called the Father of Reference Service for publishing the landmark 1876 paper 'Personal Relations Between Librarians and Readers'?",
+    "options": [
+      "A) S. R. Ranganathan",
+      "B) Samuel Rothstein",
+      "C) Samuel Swett Green",
+      "D) James I. Wyer"
+    ],
+    "correct": 2,
+    "exp": "Samuel Swett Green published the landmark paper 'Personal Relations Between Librarians and Readers' in 1876 and is commonly called the Father of Reference Service.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "According to James I. Wyer's theories of reference service, which theory emphasizes providing limited personal assistance and teaching users how to find information rather than giving them the answers?",
+    "options": [
+      "A) Conservative or Minimum Theory",
+      "B) Moderate or Middling Theory",
+      "C) Liberal or Maximum Theory",
+      "D) Supervisory Theory"
+    ],
+    "correct": 0,
+    "exp": "The Conservative or Minimum Theory provides limited personal assistance and emphasizes user instruction.[cite: 3] The librarian points out the appropriate source and does not interpret or analyse information for the user.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "According to S. R. Ranganathan's categories of readers, which type of service is required by a 'Freshman or new reader'?",
+    "options": [
+      "A) General assistance",
+      "B) Ready reference service",
+      "C) Long-range reference service",
+      "D) Library initiation or orientation"
+    ],
+    "correct": 3,
+    "exp": "According to Ranganathan, a Freshman or new reader requires Library initiation or orientation.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Ready reference service provides a quick answer to a simple and factual question. According to Ranganathan, this should ideally be completed within what timeframe?",
+    "options": [
+      "A) In a minute, if possible",
+      "B) Within an hour",
+      "C) Within 24 hours",
+      "D) Several hours or days"
+    ],
+    "correct": 0,
+    "exp": "According to Ranganathan, ready reference service should be completed in a very short time in a minute, if possible.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "The Reference and User Services Association (RUSA) identifies five important behavioural areas for a reference interview. Which of the following is NOT one of those five areas?",
+    "options": [
+      "A) Approachability",
+      "B) Interest",
+      "C) Listening and enquiring",
+      "D) Appraising and pricing"
+    ],
+    "correct": 3,
+    "exp": "The Reference and User Services Association identifies five important behavioural areas: Approachability, Interest, Listening and enquiring, Searching, and Follow-up.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "In which type of referral service is the user directed to another librarian, expert or institution, with the original librarian generally having no further control after the referral?",
+    "options": [
+      "A) Question Referral",
+      "B) Client Referral",
+      "C) Roving Reference",
+      "D) Virtual Reference"
+    ],
+    "correct": 1,
+    "exp": "In client referral, the user is directed to another librarian, expert or institution, and the original librarian generally has no further control after the referral.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Who defined digital reference service in 1999 as a mechanism through which users submit questions electronically and receive answers electronically?",
+    "options": [
+      "A) S. S. Green",
+      "B) Janes, Carter and Memmott",
+      "C) B. M. Robinson",
+      "D) A. G. Rugh"
+    ],
+    "correct": 1,
+    "exp": "Janes, Carter and Memmott (1999) described digital reference as a mechanism through which users submit questions electronically and receive answers electronically.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "The concept of Selective Dissemination of Information (SDI), a personalized current-awareness service, was advanced in 1958 by:",
+    "options": [
+      "A) Tim Berners-Lee",
+      "B) Hans Peter Luhn",
+      "C) S. R. Ranganathan",
+      "D) Michael Casey"
+    ],
+    "correct": 1,
+    "exp": "The concept of SDI was advanced by Hans Peter Luhn in 1958.[cite: 3] He developed the concept while working at IBM, and is regarded as the originator of SDI.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which component of an SDI system is essential for evaluating and improving the relevance of future alerts?",
+    "options": [
+      "A) Document profile",
+      "B) User profile",
+      "C) Matching mechanism",
+      "D) Feedback"
+    ],
+    "correct": 3,
+    "exp": "Feedback is essential for improving the relevance of future alerts in an SDI system.[cite: 3] On the basis of feedback, the system may modify user profiles to provide better matches.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which ISO standard specifically defines Inter-Library Loan (ILL) service terminology and service procedures?",
+    "options": [
+      "A) ISO 2709",
+      "B) ISO 9001",
+      "C) ISO 10160",
+      "D) ISO 10161"
+    ],
+    "correct": 2,
+    "exp": "The International Organization for Standardization developed ISO 10160, which defines ILL service terminology and service procedures.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "DELNET (Developing Library Network), originally called the Delhi Library Network, was registered as a society in which year?",
+    "options": [
+      "A) 1988",
+      "B) 1991",
+      "C) 1992",
+      "D) 1996"
+    ],
+    "correct": 2,
+    "exp": "DELNET began at the India International Centre Library in January 1988 and was registered as a society in 1992.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "INFLIBNET (Information and Library Network Centre) was initiated by the UGC in 1991 and became an independent Inter-University Centre in:",
+    "options": [
+      "A) 1992",
+      "B) 1996",
+      "C) 2002",
+      "D) 2010"
+    ],
+    "correct": 1,
+    "exp": "INFLIBNET was initiated by the University Grants Commission in 1991 and became an independent Inter-University Centre of the UGC on 16 May 1996.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which generation of OPAC introduced relevance ranking, faceted searching, and spelling suggestions?",
+    "options": [
+      "A) First-Generation OPAC",
+      "B) Second-Generation OPAC",
+      "C) Third-Generation or Next-Generation OPAC",
+      "D) Zero-Generation OPAC"
+    ],
+    "correct": 2,
+    "exp": "Third-Generation or Next-Generation OPAC uses relevance ranking, supports faceted searching, and provides spelling suggestions.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "The term 'Augmented Reality' (AR), which refers to overlaying computer-generated information on a user's view of the real world, is commonly associated with which individual who used it around 1990?",
+    "options": [
+      "A) Thomas Vander Wal",
+      "B) Ben Hammersley",
+      "C) Tom Caudell",
+      "D) Tim Berners-Lee"
+    ],
+    "correct": 2,
+    "exp": "The term Augmented Reality is commonly associated with Tom Caudell, who used it around 1990.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "In geo-location services, what is the term for creating a virtual boundary around a physical location that triggers a notification when a registered mobile device enters or leaves it?",
+    "options": [
+      "A) Bluetooth beacons",
+      "B) Geo-fencing",
+      "C) IP routing",
+      "D) Cellular triangulation"
+    ],
+    "correct": 1,
+    "exp": "Geo-fencing creates a virtual boundary around a physical location.[cite: 3] When a registered mobile device enters or leaves that boundary, a notification or service may be activated.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Who is credited with first using the term 'Web 2.0' in the 1999 article 'Fragmented Future'?",
+    "options": [
+      "A) Tim O'Reilly",
+      "B) Dale Dougherty",
+      "C) Darcy DiNucci",
+      "D) Michael Casey"
+    ],
+    "correct": 2,
+    "exp": "Darcy DiNucci used the term Web 2.0 in her article 'Fragmented Future' in 1999.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which vision, associated with Tim Berners-Lee, James Hendler, and Ora Lassila (2001), describes an extension of the Web where information is given well-defined meaning to enable computers and people to work in cooperation?",
+    "options": [
+      "A) Social Web",
+      "B) Semantic Web",
+      "C) Web 2.0",
+      "D) Deep Web"
+    ],
+    "correct": 1,
+    "exp": "The Semantic Web vision is associated with Tim Berners-Lee, who along with James Hendler and Ora Lassila explained it in a Scientific American article in 2001.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "In the context of Semantic Web technologies, RDF (Resource Description Framework) represents information using subject-predicate-object statements called:",
+    "options": [
+      "A) Triples",
+      "B) Ontologies",
+      "C) Mashups",
+      "D) Folksonomies"
+    ],
+    "correct": 0,
+    "exp": "RDF stands for Resource Description Framework.[cite: 3] It represents information using subject-predicate-object statements called triples.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "The concept of 'Library 2.0' was introduced on the blog Library Crunch in 2005 by:",
+    "options": [
+      "A) Jack M. Maness",
+      "B) Michael Casey",
+      "C) Laura Savastinuk",
+      "D) Paul Miller"
+    ],
+    "correct": 1,
+    "exp": "The term Library 2.0 is associated with Michael Casey.[cite: 3] He introduced it on his blog Library Crunch in 2005.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which Web 2.0 technology allows part of a webpage to update without reloading the entire page?",
+    "options": [
+      "A) RSS",
+      "B) XML",
+      "C) AJAX",
+      "D) API"
+    ],
+    "correct": 2,
+    "exp": "AJAX stands for Asynchronous JavaScript and XML.[cite: 3] It allows part of a webpage to update without reloading the entire page.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "RSS 0.90, an early version of the Web-feed format that automatically delivers updated website content, was released in 1999 by:",
+    "options": [
+      "A) Google",
+      "B) Microsoft",
+      "C) Netscape",
+      "D) Yahoo"
+    ],
+    "correct": 2,
+    "exp": "RSS 0.90 was released by Netscape on 15 March 1999.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "The word 'podcasting', which refers to a series of digital audio programmes distributed through the Internet, was popularized in 2004 by journalist:",
+    "options": [
+      "A) Thomas Vander Wal",
+      "B) Tim O'Reilly",
+      "C) Darcy DiNucci",
+      "D) Ben Hammersley"
+    ],
+    "correct": 3,
+    "exp": "The word podcasting was popularized by journalist Ben Hammersley in 2004.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "The term 'social network' is commonly associated with which anthropologist who used it in 1954?",
+    "options": [
+      "A) Émile Durkheim",
+      "B) Georg Simmel",
+      "C) Jacob L. Moreno",
+      "D) J. A. Barnes"
+    ],
+    "correct": 3,
+    "exp": "The term social network is commonly associated with anthropologist J. A. Barnes, who used it in 1954.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which academic social network, acquired by Elsevier in 2013, combines reference management with scholarly collaboration?",
+    "options": [
+      "A) ResearchGate",
+      "B) Academia.edu",
+      "C) Mendeley",
+      "D) SSRN"
+    ],
+    "correct": 2,
+    "exp": "Mendeley was founded in 2008 and combines reference management with scholarly collaboration.[cite: 3] It was acquired by Elsevier in 2013.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "ORCID, which provides a persistent identifier to distinguish researchers with similar names, was launched in:",
+    "options": [
+      "A) 2008",
+      "B) 2010",
+      "C) 2012",
+      "D) 2015"
+    ],
+    "correct": 2,
+    "exp": "ORCID stands for Open Researcher and Contributor ID and was launched in 2012.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "The term 'folksonomy', a user-generated classification system created collaboratively through tags, was coined in 2004 by:",
+    "options": [
+      "A) Thomas Vander Wal",
+      "B) Jack M. Maness",
+      "C) Tim O'Reilly",
+      "D) Michael Casey"
+    ],
+    "correct": 0,
+    "exp": "The term folksonomy was coined by Thomas Vander Wal in 2004.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which service, founded in 2003, popularized social bookmarking and tagging on the Web?",
+    "options": [
+      "A) itList",
+      "B) Delicious",
+      "C) CiteULike",
+      "D) Pinterest"
+    ],
+    "correct": 1,
+    "exp": "Delicious was founded in 2003 and popularized social bookmarking and tagging.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "What is the primary difference in search methodology between a Federated Search and a Web-Scale Discovery Service (WSDS)?",
+    "options": [
+      "A) Federated search queries a single pre-built index, while WSDS searches multiple databases in real time.",
+      "B) Federated search is significantly faster than WSDS.",
+      "C) Federated search queries remote databases in real time, while WSDS searches a pre-built central index.",
+      "D) There is no difference; they are synonymous terms."
+    ],
+    "correct": 2,
+    "exp": "Federated search sends a query simultaneously to multiple remote databases in real time, while WSDS searches one previously prepared central index.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "In the context of a Web-Scale Discovery Service, what does OAI-PMH stand for?",
+    "options": [
+      "A) Online Access Interface Protocol for Metadata Hosting",
+      "B) Open Archives Initiative Protocol for Metadata Harvesting",
+      "C) Open Access Integration Protocol for Machine Harvesting",
+      "D) Online Archives Indexing Protocol for Metadata Hosting"
+    ],
+    "correct": 1,
+    "exp": "OAI-PMH stands for Open Archives Initiative Protocol for Metadata Harvesting, which allows repositories to expose structured metadata for harvesting.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which open-source library resource-discovery portal was originally developed by Villanova University Library and publicly released in 2010?",
+    "options": [
+      "A) Blacklight",
+      "B) VuFind",
+      "C) LibraryFind",
+      "D) Aspen Discovery"
+    ],
+    "correct": 1,
+    "exp": "VuFind is an open-source library resource-discovery portal originally developed by Villanova University Library.[cite: 3] It was publicly released in 2010 after an earlier beta-development period.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "NISCAIR (National Institute of Science Communication and Information Resources) was formed on 30 September 2002 by the merger of:",
+    "options": [
+      "A) NISTADS and INSDOC",
+      "B) NISCOM and INSDOC",
+      "C) PID and DESIDOC",
+      "D) CSIR and UGC"
+    ],
+    "correct": 1,
+    "exp": "NISCOM and INSDOC merged on 30 September 2002 to form NISCAIR.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "DESIDOC, the central information and publication facility of DRDO, began in 1958 under the name:",
+    "options": [
+      "A) Scientific Information Bureau (SIB)",
+      "B) Defence Information Centre (DIC)",
+      "C) National Scientific Documentation Centre",
+      "D) Publications and Information Directorate"
+    ],
+    "correct": 0,
+    "exp": "DESIDOC began as the Scientific Information Bureau (SIB) in 1958.[cite: 3] It later developed into DESIDOC.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which national information system in India was established in December 1982 to collect, collate, store and retrieve environmental data?",
+    "options": [
+      "A) NASSDOC",
+      "B) SENDOC",
+      "C) ENVIS",
+      "D) NKN"
+    ],
+    "correct": 2,
+    "exp": "ENVIS (Environmental Information System) was established by the Government of India in December 1982 to collect, collate, store and retrieve environmental data.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "The National Knowledge Network (NKN), designed to provide high-speed backbone connectivity for research and education institutions in India, was approved in:",
+    "options": [
+      "A) 1986",
+      "B) 1996",
+      "C) 2010",
+      "D) 2015"
+    ],
+    "correct": 2,
+    "exp": "The Cabinet Committee on Infrastructure approved NKN in March 2010.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which network was established by the Department of Biotechnology during 1986-1987 as a distributed national bioinformatics network?",
+    "options": [
+      "A) ENVIS",
+      "B) ERNET",
+      "C) BTISnet",
+      "D) NICNET"
+    ],
+    "correct": 2,
+    "exp": "BTISnet stands for Biotechnology Information System Network.[cite: 3] It was established by the Department of Biotechnology during 1986–87.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "INIS (International Nuclear Information System), established in 1970, is operated by which organization headquartered in Vienna?",
+    "options": [
+      "A) FAO",
+      "B) WIPO",
+      "C) IAEA",
+      "D) UNESCO"
+    ],
+    "correct": 2,
+    "exp": "INIS stands for International Nuclear Information System.[cite: 3] It was established in 1970 and is operated by the International Atomic Energy Agency (IAEA) in Vienna, Austria.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "AGRIS (International System for Agricultural Science and Technology), initiated by the Food and Agriculture Organization (FAO), became fully operational in:",
+    "options": [
+      "A) 1964",
+      "B) 1970",
+      "C) 1975",
+      "D) 1980"
+    ],
+    "correct": 2,
+    "exp": "AGRIS was developed in 1974 and became fully operational in 1975.[cite: 3] Its headquarters and central coordination are associated with FAO in Rome, Italy.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "INSPEC, an information service launched in 1967 covering physics, electronics, computing and control, developed from which historical publication?",
+    "options": [
+      "A) Index Medicus",
+      "B) Biological Abstracts",
+      "C) Science Abstracts",
+      "D) Resources in Education"
+    ],
+    "correct": 2,
+    "exp": "INSPEC was launched in January 1967.[cite: 3] It developed from Science Abstracts, which originated in 1898.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "MEDLINE (MEDLARS Online), the principal bibliographical database of the National Library of Medicine (NLM), was introduced in:",
+    "options": [
+      "A) 1964",
+      "B) 1971",
+      "C) 1979",
+      "D) 2004"
+    ],
+    "correct": 1,
+    "exp": "MEDLINE, the online version of MEDLARS, was introduced in 1971.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "ERIC (Education Resources Information Center) assigns specific prefixes to its document numbers. What does the prefix 'EJ' indicate?",
+    "options": [
+      "A) ERIC Journal Article",
+      "B) ERIC Job Application",
+      "C) Educational Jurisdiction",
+      "D) ERIC Joint Publication"
+    ],
+    "correct": 0,
+    "exp": "In ERIC, the prefix 'EJ' indicates an ERIC journal article record, while 'ED' indicates an ERIC document.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "The Patent Information System (PIS) of India was established by the Government of India in 1980 and is located in:",
+    "options": [
+      "A) New Delhi",
+      "B) Hyderabad",
+      "C) Nagpur",
+      "D) Bangalore"
+    ],
+    "correct": 2,
+    "exp": "PIS stands for Patent Information System.[cite: 3] It was established by the Government of India in 1980 and is located at Nagpur.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "A formal or informal association of libraries established to achieve common objectives through cooperation, resource sharing and collective negotiation is defined as a:",
+    "options": [
+      "A) Folksonomy",
+      "B) Telecentre",
+      "C) Subject Gateway",
+      "D) Library Consortium"
+    ],
+    "correct": 3,
+    "exp": "A library consortium is a formal or informal association of libraries established to achieve common objectives through cooperation, resource sharing and collective negotiation.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "The e-ShodhSindhu consortium was created in 2015 by merging which three earlier initiatives?",
+    "options": [
+      "A) DELNET, CALIBNET, and ADINET",
+      "B) UGC-INFONET Digital Library Consortium, N-LIST, and INDEST-AICTE Consortium",
+      "C) NKRC, CeRA, and DeLCON",
+      "D) OCLC, Jisc, and SANLiC"
+    ],
+    "correct": 1,
+    "exp": "e-ShodhSindhu was created in 2015 by merging UGC-INFONET Digital Library Consortium, N-LIST and INDEST-AICTE Consortium.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which INFLIBNET initiative serves as the college component for E-journal and e-book access under the broader e-ShodhSindhu umbrella?",
+    "options": [
+      "A) CeRA",
+      "B) Shodhgangotri",
+      "C) N-LIST",
+      "D) IndCat"
+    ],
+    "correct": 2,
+    "exp": "N-LIST is the college component of e-ShodhSindhu, not a completely separate present-day national consortium.[cite: 3] It provides E-journal and e-book access for eligible colleges.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "Which Indian library consortium specifically provides e-resources for agricultural research and education institutions?",
+    "options": [
+      "A) NKRC",
+      "B) HELINET",
+      "C) CeRA",
+      "D) DeLCON"
+    ],
+    "correct": 2,
+    "exp": "CeRA (Consortium for e-Resources in Agriculture) provides e-resources for agricultural research and education institutions.[cite: 3]"
+  },
+  {
+    "unit": "Unit 4",
+    "q": "OCLC, which manages the global union catalogue WorldCat, was founded in 1967. What did the acronym originally stand for?",
+    "options": [
+      "A) Online Computer Library Center",
+      "B) Ohio College Library Center",
+      "C) Open Catalogue and Library Consortium",
+      "D) Overseas College Library Connection"
+    ],
+    "correct": 1,
+    "exp": "OCLC originally meant Ohio College Library Center when it was founded in 1967; its later name is Online Computer Library Center.[cite: 3]"
+  }
+
+]
