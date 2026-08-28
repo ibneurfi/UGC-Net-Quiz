@@ -178,7 +178,9 @@
                 throw new Error("The local question bank has no questions for this selection.");
             }
 
-            questions = shuffle(availableQuestions).slice(0, QUESTION_LIMIT);
+            questions = topic === "Paper 2 : LIS (All Topics)"
+                ? selectPaperQuestions(availableQuestions)
+                : shuffle(availableQuestions).slice(0, QUESTION_LIMIT);
             questions.forEach(question => question.status = "unanswered");
             currentQ = 0;
             score = 0;
@@ -442,6 +444,13 @@
             [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
         }
         return shuffled;
+    }
+
+    function selectPaperQuestions(availableQuestions) {
+        return Array.from({ length: 10 }, (_, index) => {
+            const unitQuestions = availableQuestions.filter(question => question.unit === `Unit ${index + 1}`);
+            return shuffle(unitQuestions).slice(0, 10);
+        }).flat();
     }
 </script>
 

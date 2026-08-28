@@ -24,7 +24,7 @@ This project can run as a free static website on GitHub Pages. Upload `index.htm
 
 You do not need to upload `server.js`, `package.json`, `.env`, or Node.js for GitHub Pages. To add questions later, edit `question-bank.json`, commit the change, and GitHub Pages will publish the update automatically.
 
-Questions are selected by unit. The first option, **Paper 2 : LIS (All Topics)**, randomly selects up to 100 questions across all units. Unit 1–Unit 10 options use all questions available in the selected unit. Mock tests have a 120-minute time limit; practice mode remains untimed.
+Questions are selected by unit. The first option, **Paper 2 : LIS (All Topics)**, randomly selects exactly 10 questions from each Unit 1–10 (100 total). Unit 1–Unit 10 options use all questions available in the selected unit. Mock tests have a 120-minute time limit; practice mode remains untimed.
 
 For future topic-specific filtering, add a `topic` value to each question. Use the exact option value from the HTML, for example:
 

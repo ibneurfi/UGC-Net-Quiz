@@ -38,6 +38,15 @@ function readBody(req) {
     });
 }
 
+function shuffle(items) {
+    const shuffled = [...items];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
+
 function getLocalQuestions(requestUrl) {
     if (!fs.existsSync(questionBankPath)) {
         throw new Error("question-bank.json is missing. Add your question bundle to the project folder.");
@@ -51,8 +60,13 @@ function getLocalQuestions(requestUrl) {
     if (!matches.length) {
         throw new Error(`No local questions are available for ${topic}.`);
     }
-    const questionLimit = topic === "Paper 2 : LIS (All Topics)" ? 100 : matches.length;
-    return matches.sort(() => Math.random() - 0.5).slice(0, questionLimit);
+    if (topic === "Paper 2 : LIS (All Topics)") {
+        return Array.from({ length: 10 }, (_, index) => {
+            const unitQuestions = matches.filter(question => question.unit === `Unit ${index + 1}`);
+            return shuffle(unitQuestions).slice(0, 10);
+        }).flat();
+    }
+    return shuffle(matches);
 }
 
 const server = http.createServer(async (req, res) => {
