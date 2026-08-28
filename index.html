@@ -15,11 +15,19 @@
         .dark .quiz-card { color: #f8fafc; background: rgba(255,255,255,.13); border-color: rgba(255,255,255,.25); box-shadow: 0 20px 70px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.16); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); }
         .dark select, .dark .option, .dark .result-stat { color: #f8fafc; background: rgba(15,23,42,.58); border-color: rgba(255,255,255,.2); }
         .dark .option:hover:not(:disabled) { color: #c4b5fd; background: rgba(79,70,229,.3); }
-        .dark .subtitle, .dark .quiz-meta, .dark .footer, .dark .result-stat span { color: #9ca3af; }
-        .dark .timer { background: rgba(49,46,129,.72); color: #e0e7ff; }
+        .dark .brand, .dark .active-topic, .dark .loader { color: #f8fafc; }
+        .dark .subtitle, .dark .quiz-meta, .dark footer, .dark .result-stat span { color: #d1d5db; }
+        .dark .timer { color: #f8fafc; background: rgba(248,250,252,.16); border: 1px solid rgba(248,250,252,.35); }
+        .dark .progress { background: rgba(248,250,252,.2); }
+        .dark #progress-bar { background: linear-gradient(90deg, #f8fafc, #c7d2fe); }
         .theme-toggle { position: fixed !important; top: 20px !important; right: 20px !important; left: auto !important; bottom: auto !important; z-index: 2147483647; width: 46px; min-height: 40px; padding: 7px; border: 1px solid rgba(99,102,241,.35); border-radius: 99px; background: rgba(255,255,255,.22); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); cursor: pointer; font-size: 20px; transition: .2s; }
         .theme-toggle:hover { transform: rotate(12deg) scale(1.08); }
         .brand { margin: 0 0 6px; color: #4f46e5; font-size: 13px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+        .title-row { display: flex; align-items: center; gap: 10px; }
+        .home-btn { min-height: 38px; padding: 7px 11px; color: #3730a3; background: #eef2ff; border-color: #c7d2fe; cursor: pointer; font-size: 14px; font-weight: 750; }
+        .home-btn:hover { color: white; background: #4f46e5; border-color: #4f46e5; }
+        .dark .home-btn { color: #111827; background: #f8fafc; border-color: #f8fafc; }
+        .dark .home-btn:hover { color: #111827; background: #c7d2fe; border-color: #c7d2fe; }
         .header { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; padding-bottom: 22px; border-bottom: 1px solid #e5e7eb; }
         h2 { margin: 0; font-size: clamp(25px, 5vw, 34px); letter-spacing: -.04em; }
         .subtitle { margin: 8px 0 0; color: #64748b; }
@@ -47,6 +55,12 @@
         .skip-btn:hover { color: #4338ca; border-color: #818cf8; }
         .submit-btn { color: #b91c1c; background: #fff1f2; border-color: #fecdd3; cursor: pointer; }
         .submit-btn:hover { background: #ffe4e6; }
+        .next-btn { color: white; background: #4f46e5; border-color: #4f46e5; cursor: pointer; font-weight: 750; }
+        .next-btn:hover:not(:disabled) { background: #4338ca; transform: translateY(-1px); }
+        .next-btn:disabled { color: #64748b; background: #e2e8f0; border-color: #cbd5e1; cursor: not-allowed; }
+        .dark .skip-btn { color: #e5e7eb; background: rgba(15,23,42,.58); border-color: rgba(255,255,255,.2); }
+        .dark .submit-btn { color: #fecdd3; background: rgba(127,29,29,.35); border-color: rgba(254,205,211,.35); }
+        .dark .next-btn:disabled { color: #94a3b8; background: rgba(71,85,105,.55); border-color: rgba(148,163,184,.35); }
         .hidden { display: none !important; }
         .active-topic { display: none; margin: 18px 0 -4px; color: #4f46e5; font-size: 14px; font-weight: 800; }
         .result-actions { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; }
@@ -83,7 +97,7 @@
     <div class="header">
         <div>
             <p class="brand">Smart mock test</p>
-            <h2>UGC NET LIS Quiz</h2>
+            <div class="title-row"><button class="home-btn" type="button" onclick="goHome()" aria-label="Return to quiz home">Home</button><h2>UGC NET LIS Quiz</h2></div>
             <p class="subtitle">Practice with Library & Information Science questions.</p>
         </div>
         <div class="timer">Time: <span id="time">120:00</span></div>
@@ -116,7 +130,7 @@
         <h3 id="question-text">Question will appear here...</h3>
         <div id="options-container"></div>
         <div id="explanation" class="explanation"></div>
-        <div class="question-actions"><button id="skip-btn" class="skip-btn" onclick="skipQuestion()">Skip Question</button><button id="submit-btn" class="submit-btn" onclick="submitQuiz()">Submit Quiz</button><button id="next-btn" class="btn" style="display:none;" onclick="nextQuestion()">Next Question</button></div>
+        <div class="question-actions"><button id="skip-btn" class="skip-btn" type="button" onclick="skipQuestion()">Skip Question</button><button id="submit-btn" class="submit-btn" type="button" onclick="submitQuiz()">Submit Quiz</button><button id="next-btn" class="next-btn" type="button" onclick="nextQuestion()" disabled>Next Question</button></div>
     </div>
 </div>
 <footer>Made with <span aria-label="love">❤️</span> by Khalid Saifullah</footer>
@@ -191,7 +205,7 @@
 
     function loadQuestion() {
         document.getElementById("explanation").style.display = "none";
-        document.getElementById("next-btn").style.display = "none";
+        document.getElementById("next-btn").disabled = true;
         document.getElementById("skip-btn").style.display = "inline-block";
         document.getElementById("submit-btn").style.display = "inline-block";
         
@@ -231,7 +245,7 @@
         qData.selected = selectedIdx;
         expBox.style.display = "block";
         document.getElementById("attempted-text").innerText = `Attempted: ${attempted}`;
-        document.getElementById("next-btn").style.display = "inline-block";
+        document.getElementById("next-btn").disabled = false;
         document.getElementById("skip-btn").style.display = "none";
         
         let btns = document.querySelectorAll(".option");
@@ -366,6 +380,10 @@
         localStorage.setItem("ugc-theme", theme);
     }
 
+    function goHome() {
+        window.location.href = "/";
+    }
+
     function applyTheme() {
         document.documentElement.classList.toggle("dark", theme === "dark");
         const toggle = document.getElementById("theme-toggle");
@@ -387,7 +405,7 @@
             <h3 id="question-text">Question will appear here...</h3>
             <div id="options-container"></div>
             <div id="explanation" class="explanation"></div>
-            <div class="question-actions"><button id="skip-btn" class="skip-btn" onclick="skipQuestion()">Skip Question</button><button id="submit-btn" class="submit-btn" onclick="submitQuiz()">Submit Quiz</button><button id="next-btn" class="btn" style="display:none;" onclick="nextQuestion()">Next Question</button></div>
+            <div class="question-actions"><button id="skip-btn" class="skip-btn" type="button" onclick="skipQuestion()">Skip Question</button><button id="submit-btn" class="submit-btn" type="button" onclick="submitQuiz()">Submit Quiz</button><button id="next-btn" class="next-btn" type="button" onclick="nextQuestion()" disabled>Next Question</button></div>
         `;
         document.getElementById("quiz-body").style.display = "none";
         document.querySelector(".timer").classList.remove("visible");

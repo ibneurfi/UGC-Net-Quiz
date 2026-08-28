@@ -16,8 +16,13 @@
         .dark main { color: #f8fafc; background: rgba(255,255,255,.13); border-color: rgba(255,255,255,.25); box-shadow: 0 20px 70px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.16); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); }
         .dark select, .dark .option { color: #f8fafc; background: rgba(15,23,42,.58); border-color: rgba(255,255,255,.2); }
         .dark .option:hover:not(:disabled) { background: rgba(22,101,52,.5); border-color: #4ade80; }
-        .dark p, .dark .meta { color: #9ca3af; }
+        .dark p, .dark .meta, .dark footer { color: #d1d5db; }
         .dark h1, .dark h2, .dark h3, .dark .practice-link, .dark .explanation { color: #f8fafc; }
+        .title-row { display: flex; align-items: center; gap: 10px; }
+        .home-btn { min-height: 38px; padding: 7px 11px; color: #166534; background: #f0fdf4; border-color: #bbf7d0; cursor: pointer; font-size: 14px; font-weight: 750; }
+        .home-btn:hover { color: white; background: #16a34a; border-color: #16a34a; }
+        .dark .home-btn { color: #111827; background: #f8fafc; border-color: #f8fafc; }
+        .dark .home-btn:hover { color: #111827; background: #bbf7d0; border-color: #bbf7d0; }
         .dark .practice-link { color: #111827; background: white; border-color: #d1d5db; }
         .dark .practice-link:hover { color: #111827; background: #facc15; border-color: #eab308; }
         .dark .skip { color: #111827; background: white; border-color: #d1d5db; }
@@ -56,7 +61,7 @@
 </head>
 <body><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark theme" onclick="toggleTheme()">☀️</button><main>
     <a class="practice-link" href="/">← Back to Mock Test</a>
-    <h1>Practice Mode</h1><p>Learn at your own pace. No timer, no pressure, instant explanations.</p>
+    <div class="title-row"><button class="home-btn" type="button" onclick="goHome()" aria-label="Return to quiz home">Home</button><h1>Practice Mode</h1></div><p>Learn at your own pace. No timer, no pressure, instant explanations.</p>
     <section id="setup"><select id="topic">
         <option value="Paper 2 : LIS (All Topics)">Paper 2 : LIS (All Topics)</option>
         <option value="Unit 1">Unit 1</option>
@@ -83,6 +88,7 @@ function next(){index++;if(index<questions.length)show();else finish("Practice c
 function submit(){if(confirm("Submit practice now?"))finish("Practice submitted!");}
 function finish(title){const correct=questions.filter(q=>q.status==="correct").length;const attended=attempted+skipped;const accuracy=attended?Math.round(correct/attended*100):0;const percentage=Math.max(0,Math.round(marks/(questions.length*2)*100));const incorrect=questions.filter(q=>q.status==="incorrect");const review=incorrect.length?`<div class="review"><h3>Review incorrect answers</h3>${incorrect.map((q,i)=>`<div class="review-item"><b>${i+1}. ${q.q}</b><br>Your answer: ${q.options[q.selected]}<br>Correct answer: ${q.options[q.correct]}<br>${q.exp}</div>`).join("")}</div>`:"";document.getElementById("practice").innerHTML=`<div class="results"><div class="result-circle" style="--result:${percentage}%"><div class="result-value">${percentage}%</div></div><h2>${title}</h2><p>Your result is ready. Review your performance below.</p><div class="result-stats"><div class="result-stat"><strong>${marks.toFixed(2)} / ${questions.length*2}</strong><span>UGC NET marks</span></div><div class="result-stat"><strong>${correct}</strong><span>Correct answered</span></div><div class="result-stat"><strong>${accuracy}%</strong><span>Accuracy (${attended} attended)</span></div><div class="result-stat"><strong>${skipped}</strong><span>Skipped</span></div><div class="result-stat"><strong>${questions.length-attended}</strong><span>Unanswered</span></div><div class="result-stat"><strong>Untimed</strong><span>Time mode</span></div></div><div class="actions"><button class="start" onclick="location.reload()">Start Practice Again</button><button class="skip" onclick="downloadResult(${percentage},${accuracy})">Download Result</button><button class="skip" onclick="shareResult(${percentage},${accuracy})">Share Result</button></div>${review}</div>`;}
 function toggleTheme(){theme=theme==="dark"?"light":"dark";applyTheme();localStorage.setItem("ugc-theme",theme);}
+function goHome(){window.location.href="/";}
 function applyTheme(){document.documentElement.classList.toggle("dark",theme==="dark");const toggle=document.getElementById("theme-toggle");toggle.innerText=theme==="dark"?"🌙":"☀️";toggle.style.position="fixed";toggle.style.top="20px";toggle.style.right="20px";toggle.style.left="auto";toggle.style.bottom="auto";toggle.style.zIndex="2147483647";}
 function downloadResult(percentage,accuracy){const canvas=document.createElement("canvas");canvas.width=800;canvas.height=420;const c=canvas.getContext("2d");c.fillStyle="#ecfdf5";c.fillRect(0,0,800,420);c.fillStyle="#166534";c.font="bold 38px system-ui";c.fillText("UGC NET LIS Practice Result",40,75);c.font="bold 90px system-ui";c.fillText(`${percentage}%`,40,190);c.font="24px system-ui";c.fillText(`Marks: ${marks.toFixed(2)} / ${questions.length*2}`,40,255);c.fillText(`Accuracy: ${accuracy}%`,40,300);const link=document.createElement("a");link.download="ugc-net-lis-practice-result.png";link.href=canvas.toDataURL();link.click();}
 async function shareResult(percentage,accuracy){const text=`UGC NET LIS Practice: ${percentage}% score, ${accuracy}% accuracy.`;if(navigator.share) await navigator.share({title:"UGC NET LIS Practice Result",text});else await navigator.clipboard.writeText(text);alert(navigator.share?"Result shared.":"Result copied to clipboard.");}

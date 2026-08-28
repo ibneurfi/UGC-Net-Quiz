@@ -72,6 +72,10 @@ const server = http.createServer(async (req, res) => {
         res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
         return res.end(fs.readFileSync(path.join(root, "practice.html")));
     }
+    if (req.method === "GET" && requestUrl.pathname === "/question-bank.json") {
+        res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
+        return res.end(fs.readFileSync(questionBankPath));
+    }
     res.writeHead(404);
     res.end("Not found");
 });
