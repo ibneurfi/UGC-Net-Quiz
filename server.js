@@ -51,7 +51,7 @@ function getLocalQuestions(requestUrl) {
     if (!matches.length) {
         throw new Error(`No local questions are available for ${topic}.`);
     }
-    const questionLimit = topic === "Paper 2 : LIS (All Topics)" ? 50 : matches.length;
+    const questionLimit = topic === "Paper 2 : LIS (All Topics)" ? 100 : matches.length;
     return matches.sort(() => Math.random() - 0.5).slice(0, questionLimit);
 }
 

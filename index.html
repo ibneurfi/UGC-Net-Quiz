@@ -86,7 +86,7 @@
             <h2>UGC NET LIS Quiz</h2>
             <p class="subtitle">Practice with Library & Information Science questions.</p>
         </div>
-        <div class="timer">Time: <span id="time">30:00</span></div>
+        <div class="timer">Time: <span id="time">120:00</span></div>
     </div>
 
     <div id="quiz-setup" class="controls">
@@ -111,7 +111,7 @@
 
     <div id="quiz-body" style="display:none;">
         <div id="active-topic" class="active-topic"></div>
-        <div class="quiz-meta"><span id="progress-text">Question 1 of 50</span><span id="attempted-text">Attempted: 0</span></div>
+        <div class="quiz-meta"><span id="progress-text">Question 1 of 100</span><span id="attempted-text">Attempted: 0</span></div>
         <div class="progress"><div id="progress-bar"></div></div>
         <h3 id="question-text">Question will appear here...</h3>
         <div id="options-container"></div>
@@ -131,6 +131,8 @@
     let timerInterval = null;
     let quizStartedAt = 0;
     let reviewPage = 0;
+    const QUESTION_LIMIT = 100;
+    const QUIZ_DURATION_SECONDS = 120 * 60;
     let theme = localStorage.getItem("ugc-theme") || "light";
     applyTheme();
 
@@ -162,8 +164,7 @@
                 throw new Error("The local question bank has no questions for this selection.");
             }
 
-            questions = availableQuestions;
-            questions = shuffle(questions);
+            questions = shuffle(availableQuestions).slice(0, QUESTION_LIMIT);
             questions.forEach(question => question.status = "unanswered");
             currentQ = 0;
             score = 0;
@@ -175,7 +176,7 @@
             quizBody.style.display = "block";
             generateBtn.disabled = false;
             document.querySelector(".timer").classList.add("visible");
-            startTimer(1800); // 30 minutes reset
+            startTimer(QUIZ_DURATION_SECONDS);
             loadQuestion();
 
         } catch (error) {
@@ -265,7 +266,7 @@
         const correctCount = questions.filter(question => question.status === "correct").length;
         const attended = attempted + skipped;
         const accuracy = attended ? Math.round((correctCount / attended) * 100) : 0;
-        const elapsedSeconds = Math.min(1800, Math.floor((Date.now() - quizStartedAt) / 1000));
+        const elapsedSeconds = Math.min(QUIZ_DURATION_SECONDS, Math.floor((Date.now() - quizStartedAt) / 1000));
         const elapsedTime = `${Math.floor(elapsedSeconds / 60)}:${String(elapsedSeconds % 60).padStart(2, "0")}`;
         document.getElementById("progress-bar").style.width = "100%";
         const unitStats = getUnitStats();
@@ -381,7 +382,7 @@
     function restartQuiz() {
         document.getElementById("quiz-body").innerHTML = `
             <div id="active-topic" class="active-topic"></div>
-            <div class="quiz-meta"><span id="progress-text">Question 1 of 50</span><span id="attempted-text">Attempted: 0</span></div>
+            <div class="quiz-meta"><span id="progress-text">Question 1 of 100</span><span id="attempted-text">Attempted: 0</span></div>
             <div class="progress"><div id="progress-bar"></div></div>
             <h3 id="question-text">Question will appear here...</h3>
             <div id="options-container"></div>
