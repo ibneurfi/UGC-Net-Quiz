@@ -61,10 +61,14 @@ function getLocalQuestions(requestUrl) {
         throw new Error(`No local questions are available for ${topic}.`);
     }
     if (topic === "Paper 2 : LIS (All Topics)") {
-        return Array.from({ length: 10 }, (_, index) => {
+        const units = Array.from({ length: 10 }, (_, index) => {
             const unitQuestions = matches.filter(question => question.unit === `Unit ${index + 1}`);
+            if (unitQuestions.length < 10) {
+                throw new Error(`Unit ${index + 1} needs at least 10 questions for the 100-question mock test.`);
+            }
             return shuffle(unitQuestions).slice(0, 10);
-        }).flat();
+        });
+        return units.flat();
     }
     return shuffle(matches);
 }

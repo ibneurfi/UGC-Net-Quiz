@@ -3,7 +3,7 @@
 ## Run locally
 
 1. Install Node.js 18 or newer.
-2. Put at least 100 processed questions in `question-bank.json` for the all-topics mock test.
+2. Put at least 10 processed questions in each of Unit 1 through Unit 10 in `question-bank.json` for the all-topics mock test (100 questions total).
 3. Start the server:
 
    `npm.cmd start` (use `npm.cmd` if PowerShell blocks `npm`)

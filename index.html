@@ -17,6 +17,10 @@
         .dark .option:hover:not(:disabled) { color: #c4b5fd; background: rgba(79,70,229,.3); }
         .dark .brand, .dark .active-topic, .dark .loader { color: #f8fafc; }
         .dark .subtitle, .dark .quiz-meta, .dark footer, .dark .result-stat span { color: #d1d5db; }
+        .dark #question-text, .dark .results h3, .dark .review h3, .dark .unit-row, .dark .unit-row header { color: #f8fafc; }
+        .dark .explanation { color: #f8fafc; background: rgba(20, 83, 45, .45); }
+        .dark .review-item { color: #f8fafc; background: rgba(124, 45, 18, .3); }
+        .dark .unit-row { background: rgba(15, 23, 42, .58); }
         .dark .timer { color: #f8fafc; background: rgba(248,250,252,.16); border: 1px solid rgba(248,250,252,.35); }
         .dark .progress { background: rgba(248,250,252,.2); }
         .dark #progress-bar { background: linear-gradient(90deg, #f8fafc, #c7d2fe); }
@@ -447,10 +451,14 @@
     }
 
     function selectPaperQuestions(availableQuestions) {
-        return Array.from({ length: 10 }, (_, index) => {
+        const units = Array.from({ length: 10 }, (_, index) => {
             const unitQuestions = availableQuestions.filter(question => question.unit === `Unit ${index + 1}`);
+            if (unitQuestions.length < 10) {
+                throw new Error(`Unit ${index + 1} needs at least 10 questions for the 100-question mock test.`);
+            }
             return shuffle(unitQuestions).slice(0, 10);
-        }).flat();
+        });
+        return units.flat();
     }
 </script>
 
