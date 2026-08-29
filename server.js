@@ -38,6 +38,15 @@ function readBody(req) {
     });
 }
 
+function shuffle(items) {
+    const shuffled = [...items];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
+
 function getLocalQuestions(requestUrl) {
     if (!fs.existsSync(questionBankPath)) {
         throw new Error("question-bank.json is missing. Add your question bundle to the project folder.");
@@ -51,8 +60,17 @@ function getLocalQuestions(requestUrl) {
     if (!matches.length) {
         throw new Error(`No local questions are available for ${topic}.`);
     }
-    const questionLimit = topic === "Paper 2 : LIS (All Topics)" ? 100 : matches.length;
-    return matches.sort(() => Math.random() - 0.5).slice(0, questionLimit);
+    if (topic === "Paper 2 : LIS (All Topics)") {
+        const units = Array.from({ length: 10 }, (_, index) => {
+            const unitQuestions = matches.filter(question => question.unit === `Unit ${index + 1}`);
+            if (unitQuestions.length < 10) {
+                throw new Error(`Unit ${index + 1} needs at least 10 questions for the 100-question mock test.`);
+            }
+            return shuffle(unitQuestions).slice(0, 10);
+        });
+        return units.flat();
+    }
+    return shuffle(matches);
 }
 
 const server = http.createServer(async (req, res) => {
@@ -71,6 +89,10 @@ const server = http.createServer(async (req, res) => {
     if (req.method === "GET" && requestUrl.pathname === "/practice.html") {
         res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
         return res.end(fs.readFileSync(path.join(root, "practice.html")));
+    }
+    if (req.method === "GET" && requestUrl.pathname === "/question-bank.json") {
+        res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
+        return res.end(fs.readFileSync(questionBankPath));
     }
     res.writeHead(404);
     res.end("Not found");
